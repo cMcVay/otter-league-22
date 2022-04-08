@@ -8,7 +8,7 @@ function Roster() {
     let team = Teams.find(team => team.id === teamID)
     return (
         <div>
-            <h1>{team.name}'s Roster</h1>
+            <h1>{team.name} Roster</h1>
             <ol>
                {[...Players].filter(player => player.otter === team.name).map(player => (
                     <li>{player.name} | {player.mlb}</li>
