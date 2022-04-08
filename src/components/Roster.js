@@ -1,6 +1,7 @@
 import React from "react";
 import {useParams} from "react-router-dom";
 import Teams from './Teams';
+import Players from './Players';
 
 function Roster() {
     let {teamID} = useParams()
@@ -8,6 +9,12 @@ function Roster() {
     return (
         <div>
             <h1>{team.name}'s Roster</h1>
+            <ol>
+               {[...Players].filter(player => player.otter === team.name).map(player => (
+                    <li>{player.name} | {player.mlb}</li>
+                ))} 
+            </ol>
+            
         </div>
     )
 };
