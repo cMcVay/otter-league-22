@@ -1,14 +1,28 @@
 
 import './App.css';
 
-function App() {
+import {Routes, Route} from 'react-router-dom';
+import TeamPage from './components/TeamPage';
+
+
+
+
+
+
+/*function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Otter Fantasy Baseball League 2022</h1>
-      </header>
-    </div>
+    <Routes>
+          <Route path="/" exact component={Home} />
+          <Route path="/Team/:name" component={TeamPage} />
+    </Routes>
   );
-}
+}*/
+
+const App = () => {
+  return(
+    <div>
+      <h1>Home</h1>
+    </div>
+  )}
 
 export default App;
