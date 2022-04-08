@@ -1,28 +1,27 @@
 
 import './App.css';
 
-import {Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import TeamPage from './components/TeamPage';
+import Home from './components/Home';
+import Roster from './components/Roster';
 
 
 
 
 
 
-/*function App() {
+function App() {
   return (
-    <Routes>
-          <Route path="/" exact component={Home} />
-          <Route path="/Team/:name" component={TeamPage} />
-    </Routes>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/Team/:teamID" element={<TeamPage />}/>
+        <Route path="/Roster/:teamID" element={<Roster />}/>
+      </Routes>
+    </Router>
   );
-}*/
+}
 
-const App = () => {
-  return(
-    <div>
-      <h1>Home</h1>
-    </div>
-  )}
 
 export default App;

@@ -1,10 +1,17 @@
 import React from "react";
-import { Routes, Route, useParams } from "react-router-dom";
+import { Routes, Route, useParams, Link } from "react-router-dom";
+import Teams from "./Teams";
 
 function TeamPage() {
-    let params = useParams();
+    let { teamID } = useParams();
+    let team = Teams.find(team => team.id === teamID)
     return (
-        <h1>{params.name}</h1>
+        <div>
+            <h1>{team.name}</h1>
+            <nav>
+                <Link to={`/Roster/${teamID}`}>Roster</Link>
+            </nav>
+        </div>
     )
 }
 
