@@ -1,7 +1,7 @@
 import React from "react";
 import {useParams} from "react-router-dom";
 import Teams from './Teams';
-import Players from './Players';
+import Players from './AddStats';
 
 function Roster() {
     let {teamID} = useParams()

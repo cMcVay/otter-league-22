@@ -1,9 +1,9 @@
-const Players = [
+const rawPlayers = [
     {
         "name": "Shohei Ohtani",
-        "id": "0001",
+        "id": "0000",
         "mlb": "LAA",
-        "pos": "OF/P",
+        "pos": "OF",
         "mvp": true,
         "hr": true,
         "spd": true,
@@ -14,7 +14,7 @@ const Players = [
     },
     {
         "name": "Juan Soto",
-        "id": "0002",
+        "id": "0001",
         "mlb": "WSH",
         "pos": "OF",
         "mvp": true,
@@ -27,7 +27,7 @@ const Players = [
     },
     {
         "name": "Aaron Judge",
-        "id": "0005",
+        "id": "0002",
         "mlb": "NYY",
         "pos": "OF",
         "mvp": true,
@@ -53,7 +53,7 @@ const Players = [
     },
     {
         "name": "Vladimir Guerrero Jr",
-        "id": "0007",
+        "id": "0004",
         "mlb": "TOR",
         "pos": "IF",
         "mvp": true,
@@ -66,7 +66,7 @@ const Players = [
     },
     {
         "name": "Gerrit Cole",
-        "id": "0009",
+        "id": "0005",
         "mlb": "NYY",
         "pos": "P",
         "mvp": true,
@@ -79,7 +79,7 @@ const Players = [
     },
     {
         "name": "Mookie Betts",
-        "id": "0012",
+        "id": "0006",
         "mlb": "LAD",
         "pos": "OF",
         "mvp": true,
@@ -92,7 +92,7 @@ const Players = [
     },
     {
         "name": "Bryce Harper",
-        "id": "0004",
+        "id": "0007",
         "mlb": "PHI",
         "pos": "OF",
         "mvp": true,
@@ -105,7 +105,7 @@ const Players = [
     },
     {
         "name": "Trea Turner",
-        "id": "0016",
+        "id": "0008",
         "mlb": "LAD",
         "pos": "IF",
         "mvp": true,
@@ -118,7 +118,7 @@ const Players = [
     },
     {
         "name": "Max Scherzer",
-        "id": "0027",
+        "id": "0009",
         "mlb": "NYM",
         "pos": "P",
         "mvp": true,
@@ -131,7 +131,7 @@ const Players = [
     },
     {
         "name": "Matt Olson",
-        "id": "0015",
+        "id": "0010",
         "mlb": "ATL",
         "pos": "IF",
         "mvp": false,
@@ -144,7 +144,7 @@ const Players = [
     },
     {
         "name": "Jose Ramirez",
-        "id": "0008",
+        "id": "0011",
         "mlb": "CLE",
         "pos": "IF",
         "mvp": true,
@@ -157,7 +157,7 @@ const Players = [
     },
     {
         "name": "Manny Machado",
-        "id": "0014",
+        "id": "0012",
         "mlb": "SD",
         "pos": "IF",
         "mvp": false,
@@ -170,7 +170,7 @@ const Players = [
     },
     {
         "name": "Shane Bieber",
-        "id": "0020",
+        "id": "0013",
         "mlb": "CLE",
         "pos": "P",
         "mvp": false,
@@ -183,7 +183,7 @@ const Players = [
     },
     {
         "name": "Walker Buehler",
-        "id": "0018",
+        "id": "0014",
         "mlb": "LAD",
         "pos": "P",
         "mvp": false,
@@ -196,7 +196,7 @@ const Players = [
     },
     {
         "name": "Ronald Acuna Jr",
-        "id": "0044",
+        "id": "0015",
         "mlb": "ATL",
         "pos": "OF",
         "mvp": true,
@@ -209,7 +209,7 @@ const Players = [
     },
     {
         "name": "Robbie Ray",
-        "id": "0017",
+        "id": "0016",
         "mlb": "SEA",
         "pos": "P",
         "mvp": false,
@@ -222,7 +222,7 @@ const Players = [
     },
     {
         "name": "Corbin Burnes",
-        "id": "0023",
+        "id": "0017",
         "mlb": "MIL",
         "pos": "P",
         "mvp": true,
@@ -235,7 +235,7 @@ const Players = [
     },
     {
         "name": "Yordan Alvarez",
-        "id": "0010",
+        "id": "0018",
         "mlb": "HOU",
         "pos": "OF",
         "mvp": true,
@@ -248,7 +248,7 @@ const Players = [
     },
     {
         "name": "Kyle Tucker",
-        "id": "0021",
+        "id": "0019",
         "mlb": "HOU",
         "pos": "OF",
         "mvp": true,
@@ -261,7 +261,7 @@ const Players = [
     },
     {
         "name": "Luis Robert",
-        "id": "0147",
+        "id": "0020",
         "mlb": "CWS",
         "pos": "OF",
         "mvp": false,
@@ -274,7 +274,7 @@ const Players = [
     },
     {
         "name": "Freddie Freeman",
-        "id": "0006",
+        "id": "0021",
         "mlb": "LAD",
         "pos": "IF",
         "mvp": true,
@@ -287,7 +287,7 @@ const Players = [
     },
     {
         "name": "Wander Franco",
-        "id": "0051",
+        "id": "0022",
         "mlb": "TB",
         "pos": "IF",
         "mvp": false,
@@ -300,7 +300,7 @@ const Players = [
     },
     {
         "name": "Zack Wheeler",
-        "id": "0011",
+        "id": "0023",
         "mlb": "PHI",
         "pos": "P",
         "mvp": true,
@@ -313,7 +313,7 @@ const Players = [
     },
     {
         "name": "Bo Bichette",
-        "id": "0049",
+        "id": "0024",
         "mlb": "TOR",
         "pos": "IF",
         "mvp": false,
@@ -326,7 +326,7 @@ const Players = [
     },
     {
         "name": "Paul Goldschmidt",
-        "id": "0013",
+        "id": "0025",
         "mlb": "STL",
         "pos": "IF",
         "mvp": false,
@@ -339,7 +339,7 @@ const Players = [
     },
     {
         "name": "Giancarlo Stanton",
-        "id": "0072",
+        "id": "0026",
         "mlb": "NYY",
         "pos": "OF",
         "mvp": true,
@@ -352,7 +352,7 @@ const Players = [
     },
     {
         "name": "Anthony Rendon",
-        "id": "0062",
+        "id": "0027",
         "mlb": "LAA",
         "pos": "IF",
         "mvp": true,
@@ -365,7 +365,7 @@ const Players = [
     },
     {
         "name": "Christian Yelich",
-        "id": "0026",
+        "id": "0028",
         "mlb": "MIL",
         "pos": "OF",
         "mvp": true,
@@ -378,7 +378,7 @@ const Players = [
     },
     {
         "name": "George Springer",
-        "id": "0022",
+        "id": "0029",
         "mlb": "TOR",
         "pos": "OF",
         "mvp": true,
@@ -391,7 +391,7 @@ const Players = [
     },
     {
         "name": "Brandon Woodruff",
-        "id": "0029",
+        "id": "0030",
         "mlb": "MIL",
         "pos": "P",
         "mvp": false,
@@ -404,7 +404,7 @@ const Players = [
     },
     {
         "name": "Trevor Story",
-        "id": "0033",
+        "id": "0031",
         "mlb": "BOS",
         "pos": "IF",
         "mvp": false,
@@ -417,7 +417,7 @@ const Players = [
     },
     {
         "name": "Sandy Alcantara",
-        "id": "0055",
+        "id": "0032",
         "mlb": "MIA",
         "pos": "P",
         "mvp": false,
@@ -430,7 +430,7 @@ const Players = [
     },
     {
         "name": "Lucas Giolito",
-        "id": "0043",
+        "id": "0033",
         "mlb": "CWS",
         "pos": "P",
         "mvp": false,
@@ -443,7 +443,7 @@ const Players = [
     },
     {
         "name": "Liam Hendriks",
-        "id": "0030",
+        "id": "0034",
         "mlb": "CWS",
         "pos": "RP",
         "mvp": false,
@@ -456,7 +456,7 @@ const Players = [
     },
     {
         "name": "Starling Marte",
-        "id": "0068",
+        "id": "0035",
         "mlb": "NYM",
         "pos": "OF",
         "mvp": false,
@@ -469,7 +469,7 @@ const Players = [
     },
     {
         "name": "Francisco Lindor",
-        "id": "0052",
+        "id": "0036",
         "mlb": "NYM",
         "pos": "IF",
         "mvp": false,
@@ -482,7 +482,7 @@ const Players = [
     },
     {
         "name": "Whit Merrifield",
-        "id": "0042",
+        "id": "0037",
         "mlb": "KC",
         "pos": "IF/OF",
         "mvp": false,
@@ -495,7 +495,7 @@ const Players = [
     },
     {
         "name": "Kris Bryant",
-        "id": "0083",
+        "id": "0038",
         "mlb": "COL",
         "pos": "IF/OF",
         "mvp": true,
@@ -508,7 +508,7 @@ const Players = [
     },
     {
         "name": "Corey Seager",
-        "id": "0095",
+        "id": "0039",
         "mlb": "TEX",
         "pos": "IF",
         "mvp": true,
@@ -521,7 +521,7 @@ const Players = [
     },
     {
         "name": "Jose Altuve",
-        "id": "0028",
+        "id": "0040",
         "mlb": "HOU",
         "pos": "IF",
         "mvp": false,
@@ -534,7 +534,7 @@ const Players = [
     },
     {
         "name": "Nolan Arenado",
-        "id": "0036",
+        "id": "0041",
         "mlb": "STL",
         "pos": "IF",
         "mvp": false,
@@ -547,7 +547,7 @@ const Players = [
     },
     {
         "name": "Alex Bregman",
-        "id": "0024",
+        "id": "0042",
         "mlb": "HOU",
         "pos": "IF",
         "mvp": false,
@@ -560,7 +560,7 @@ const Players = [
     },
     {
         "name": "Aaron Nola",
-        "id": "0031",
+        "id": "0043",
         "mlb": "PHI",
         "pos": "P",
         "mvp": false,
@@ -573,7 +573,7 @@ const Players = [
     },
     {
         "name": "Tyler O'Neill",
-        "id": "0150",
+        "id": "0044",
         "mlb": "STL",
         "pos": "OF",
         "mvp": true,
@@ -586,7 +586,7 @@ const Players = [
     },
     {
         "name": "J.D Martinez",
-        "id": "0038",
+        "id": "0045",
         "mlb": "BOS",
         "pos": "OF",
         "mvp": false,
@@ -599,7 +599,7 @@ const Players = [
     },
     {
         "name": "Nick Castellanos",
-        "id": "0071",
+        "id": "0046",
         "mlb": "PHI",
         "pos": "OF",
         "mvp": false,
@@ -612,7 +612,7 @@ const Players = [
     },
     {
         "name": "Julio Urias",
-        "id": "0063",
+        "id": "0047",
         "mlb": "LAD",
         "pos": "P",
         "mvp": false,
@@ -625,7 +625,7 @@ const Players = [
     },
     {
         "name": "Marcus Semien",
-        "id": "0046",
+        "id": "0048",
         "mlb": "TEX",
         "pos": "IF",
         "mvp": true,
@@ -638,7 +638,7 @@ const Players = [
     },
     {
         "name": "Nathan Eovaldi",
-        "id": "0065",
+        "id": "0049",
         "mlb": "BOS",
         "pos": "P",
         "mvp": false,
@@ -651,7 +651,7 @@ const Players = [
     },
     {
         "name": "Carlos Correa",
-        "id": "0149",
+        "id": "0050",
         "mlb": "MIN",
         "pos": "IF",
         "mvp": true,
@@ -664,7 +664,7 @@ const Players = [
     },
     {
         "name": "Kevin Gausman",
-        "id": "0034",
+        "id": "0051",
         "mlb": "TOR",
         "pos": "P",
         "mvp": false,
@@ -677,7 +677,7 @@ const Players = [
     },
     {
         "name": "Bryan Reynolds",
-        "id": "0019",
+        "id": "0052",
         "mlb": "PIT",
         "pos": "OF",
         "mvp": false,
@@ -690,7 +690,7 @@ const Players = [
     },
     {
         "name": "Raisel Iglesias",
-        "id": "0035",
+        "id": "0053",
         "mlb": "LAA",
         "pos": "RP",
         "mvp": false,
@@ -703,7 +703,7 @@ const Players = [
     },
     {
         "name": "Ketel Marte",
-        "id": "0056",
+        "id": "0054",
         "mlb": "ARI",
         "pos": "IF/OF",
         "mvp": false,
@@ -716,7 +716,7 @@ const Players = [
     },
     {
         "name": "Joey Votto",
-        "id": "0032",
+        "id": "0055",
         "mlb": "CIN",
         "pos": "IF",
         "mvp": false,
@@ -729,7 +729,7 @@ const Players = [
     },
     {
         "name": "Teoscar Hernandez",
-        "id": "0122",
+        "id": "0056",
         "mlb": "TOR",
         "pos": "OF",
         "mvp": true,
@@ -742,7 +742,7 @@ const Players = [
     },
     {
         "name": "Josh Hader",
-        "id": "0094",
+        "id": "0057",
         "mlb": "MIL",
         "pos": "RP",
         "mvp": false,
@@ -755,7 +755,7 @@ const Players = [
     },
     {
         "name": "Randy Arozarena",
-        "id": "0119",
+        "id": "0058",
         "mlb": "TB",
         "pos": "OF",
         "mvp": false,
@@ -768,7 +768,7 @@ const Players = [
     },
     {
         "name": "Franmil Reyes",
-        "id": "0025",
+        "id": "0059",
         "mlb": "CLE",
         "pos": "OF",
         "mvp": false,
@@ -781,7 +781,7 @@ const Players = [
     },
     {
         "name": "Joey Gallo",
-        "id": "0053",
+        "id": "0060",
         "mlb": "NYY",
         "pos": "OF",
         "mvp": false,
@@ -794,7 +794,7 @@ const Players = [
     },
     {
         "name": "Yu Darvish",
-        "id": "0069",
+        "id": "0061",
         "mlb": "SD",
         "pos": "P",
         "mvp": false,
@@ -807,7 +807,7 @@ const Players = [
     },
     {
         "name": "Ozzie Albies",
-        "id": "0109",
+        "id": "0062",
         "mlb": "ATL",
         "pos": "IF",
         "mvp": false,
@@ -820,7 +820,7 @@ const Players = [
     },
     {
         "name": "Jose Berrios",
-        "id": "0047",
+        "id": "0063",
         "mlb": "TOR",
         "pos": "P",
         "mvp": false,
@@ -833,7 +833,7 @@ const Players = [
     },
     {
         "name": "Brandon Lowe",
-        "id": "0059",
+        "id": "0064",
         "mlb": "TB",
         "pos": "IF",
         "mvp": true,
@@ -846,7 +846,7 @@ const Players = [
     },
     {
         "name": "Rafael Devers",
-        "id": "0050",
+        "id": "0065",
         "mlb": "BOS",
         "pos": "IF",
         "mvp": false,
@@ -859,7 +859,7 @@ const Players = [
     },
     {
         "name": "Nelson Cruz",
-        "id": "0037",
+        "id": "0066",
         "mlb": "WSH",
         "pos": "OF",
         "mvp": false,
@@ -872,7 +872,7 @@ const Players = [
     },
     {
         "name": "Frankie Montas",
-        "id": "0057",
+        "id": "0067",
         "mlb": "OAK",
         "pos": "P",
         "mvp": false,
@@ -885,7 +885,7 @@ const Players = [
     },
     {
         "name": "Tim Anderson",
-        "id": "0084",
+        "id": "0068",
         "mlb": "CWS",
         "pos": "IF",
         "mvp": false,
@@ -898,7 +898,7 @@ const Players = [
     },
     {
         "name": "Aroldis Chapman",
-        "id": "0079",
+        "id": "0069",
         "mlb": "NYY",
         "pos": "RP",
         "mvp": false,
@@ -911,7 +911,7 @@ const Players = [
     },
     {
         "name": "Max Muncy",
-        "id": "0064",
+        "id": "0070",
         "mlb": "LAD",
         "pos": "IF",
         "mvp": true,
@@ -924,7 +924,7 @@ const Players = [
     },
     {
         "name": "Joe Musgrove",
-        "id": "0089",
+        "id": "0071",
         "mlb": "SD",
         "pos": "P",
         "mvp": false,
@@ -937,7 +937,7 @@ const Players = [
     },
     {
         "name": "Kyle Schwarber",
-        "id": "0080",
+        "id": "0072",
         "mlb": "PHI",
         "pos": "OF",
         "mvp": false,
@@ -950,7 +950,7 @@ const Players = [
     },
     {
         "name": "Tommy Pham",
-        "id": "0101",
+        "id": "0073",
         "mlb": "CIN",
         "pos": "OF",
         "mvp": false,
@@ -963,7 +963,7 @@ const Players = [
     },
     {
         "name": "Cody Bellinger",
-        "id": "0102",
+        "id": "0074",
         "mlb": "LAD",
         "pos": "OF",
         "mvp": true,
@@ -976,7 +976,7 @@ const Players = [
     },
     {
         "name": "Jose Abreu",
-        "id": "0041",
+        "id": "0075",
         "mlb": "CWS",
         "pos": "IF",
         "mvp": false,
@@ -989,7 +989,7 @@ const Players = [
     },
     {
         "name": "Salvador Perez",
-        "id": "0048",
+        "id": "0076",
         "mlb": "KC",
         "pos": "OF",
         "mvp": false,
@@ -1002,7 +1002,7 @@ const Players = [
     },
     {
         "name": "Jazz Chisholm Jr",
-        "id": "0161",
+        "id": "0077",
         "mlb": "MIA",
         "pos": "IF",
         "mvp": false,
@@ -1015,7 +1015,7 @@ const Players = [
     },
     {
         "name": "Pete Alonso",
-        "id": "0040",
+        "id": "0078",
         "mlb": "NYM",
         "pos": "IF",
         "mvp": false,
@@ -1028,7 +1028,7 @@ const Players = [
     },
     {
         "name": "German Marquez",
-        "id": "0060",
+        "id": "0079",
         "mlb": "COL",
         "pos": "P",
         "mvp": false,
@@ -1041,7 +1041,7 @@ const Players = [
     },
     {
         "name": "Logan Webb",
-        "id": "0126",
+        "id": "0080",
         "mlb": "SF",
         "pos": "P",
         "mvp": false,
@@ -1054,7 +1054,7 @@ const Players = [
     },
     {
         "name": "Xander Bogaerts",
-        "id": "0058",
+        "id": "0081",
         "mlb": "BOS",
         "pos": "IF",
         "mvp": false,
@@ -1067,7 +1067,7 @@ const Players = [
     },
     {
         "name": "Sonny Gray",
-        "id": "0087",
+        "id": "0082",
         "mlb": "MIN",
         "pos": "P",
         "mvp": false,
@@ -1080,7 +1080,7 @@ const Players = [
     },
     {
         "name": "Justin Verlander",
-        "id": "0093",
+        "id": "0083",
         "mlb": "HOU",
         "pos": "P",
         "mvp": true,
@@ -1093,7 +1093,7 @@ const Players = [
     },
     {
         "name": "Tyler Mahle",
-        "id": "0070",
+        "id": "0084",
         "mlb": "CIN",
         "pos": "P",
         "mvp": false,
@@ -1106,7 +1106,7 @@ const Players = [
     },
     {
         "name": "J.P. Crawford",
-        "id": "0076",
+        "id": "0085",
         "mlb": "SEA",
         "pos": "IF",
         "mvp": false,
@@ -1119,7 +1119,7 @@ const Players = [
     },
     {
         "name": "Cedric Mullins",
-        "id": "0123",
+        "id": "0086",
         "mlb": "BAL",
         "pos": "OF",
         "mvp": false,
@@ -1132,7 +1132,7 @@ const Players = [
     },
     {
         "name": "Clayton Kershaw",
-        "id": "0445",
+        "id": "0087",
         "mlb": "LAD",
         "pos": "P",
         "mvp": false,
@@ -1145,7 +1145,7 @@ const Players = [
     },
     {
         "name": "Pablo López",
-        "id": "0429",
+        "id": "0088",
         "mlb": "MIA",
         "pos": "P",
         "mvp": false,
@@ -1158,7 +1158,7 @@ const Players = [
     },
     {
         "name": "Edwin Diaz",
-        "id": "0134",
+        "id": "0089",
         "mlb": "NYM",
         "pos": "RP",
         "mvp": false,
@@ -1168,7 +1168,22 @@ const Players = [
         "lock": false,
         "inj": false,
         "otter": "Frozen Acorns"
+    },
+    {
+        "name": "Shohei Ohtani",
+        "id": "0090",
+        "mlb": "LAA",
+        "pos": "P",
+        "mvp": true,
+        "hr": true,
+        "spd": true,
+        "ace": true,
+        "lock": false,
+        "inj": false,
+        "otter": "Mindful Freaks"
     }
 ];
 
-export default Players;
+
+
+export default rawPlayers;
