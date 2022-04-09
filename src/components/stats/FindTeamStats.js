@@ -33,12 +33,12 @@ Teams.map(team => {
 
 Teams.map(team => {
     for (let i=0; i<20; i++){
-    let matchup = [...rawSchedule][0].filter(match => match.home === team.id || match.away === team.id);
+    let matchup = [...rawSchedule][i].filter(match => match.home === team.id || match.away === team.id);
     let away = Teams.find(group => group.id === matchup[0].away);
     let home = Teams.find(group => group.id === matchup[0].home);
     if (away.id === team.id) {
-        team.OppoPF.push(home.PF[0])
-    } else {team.OppoPF.push(away.PF[0])}
+        team.OppoPF.push(home.PF[i])
+    } else {team.OppoPF.push(away.PF[i])}
 }});
 
 
