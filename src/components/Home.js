@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SampleCalculator from './stats/SampleCalculator';
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
                 <Link to='/Team/4'>Mindful Freaks</Link><br/>
                 <Link to='/Team/5'>Slim Aliens</Link>
             </nav>
+            <SampleCalculator />
         </div>
         
     )
