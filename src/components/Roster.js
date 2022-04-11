@@ -1,5 +1,5 @@
 import React from "react";
-import {useParams} from "react-router-dom";
+import {useParams, Link} from "react-router-dom";
 
 import {Players, finalTeams} from './AddTotals';
 
@@ -15,6 +15,10 @@ function Roster() {
     };
     return (
         <div>
+            <nav>
+                <Link to={`/`}>home</Link><br/>
+                <Link to={`/Team/${teamID}`}>team page</Link>
+            </nav>
             <h1>{team.name} Roster</h1>
             <ol>
                {[...Players].filter(player => player.otter === team.name).map(player => (

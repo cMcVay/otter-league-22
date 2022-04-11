@@ -4,7 +4,7 @@ import adjTeams from "./stats/FindTeamStats";
 Players.map(player => {
     let playersTeam = adjTeams.find(team => team.name === player.otter)
     let delta = parseInt(player.op[0]) - playersTeam.OppoPF[0]
-    Players[parseInt(player.id)].tot.splice(0, 1, delta)
+    Players[parseInt(player.id)].tot.splice(0, 1, (delta < 0 ? 0 : delta))
 });
 
 adjTeams.map(team => {
