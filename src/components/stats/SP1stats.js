@@ -13,7 +13,7 @@ let rawStatsSP1 = [
     {id:"39", game:"2-4, 1 2B, 1 BB", points:"0.7", OP:"2", day:"2"},
     {id:"44", game:"2-3, 1 HR, 5 RBI, 1 BB", points:"1.3", OP:"5", day:"1"},
     {id:"56", game:"1-2, 1 HR, 3 RBI, 2 BB", points:"1.1", OP:"4", day:"2"},
-    {id:"", game:"2-5, 2 HR, 2 RBI", points:"1", OP:"4", day:"4"},
+    {id:"91", game:"2-5, 2 HR, 2 RBI", points:"1", OP:"4", day:"4"},
     {id:"80", game:"6 IP, 5 H, 1 ER, 1 BB, 3 K", points:"0.683333333333333", OP:"6", day:"2"},
     {id:"32", game:"5 IP, 3 H, 2 ER, 5 BB, 4 K", points:"0.46", OP:"4", day:"2"},
     //Aliens

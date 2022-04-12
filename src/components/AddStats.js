@@ -15,6 +15,8 @@ rawPlayers.map(player => {
     }
 })
 
+console.log(rawPlayers);
+
 rawStatsSP1.map(player => {
     rawPlayers[parseInt(player.id)].log.splice(0, 1, player.game);
     rawPlayers[parseInt(player.id)].op.splice(0, 1, player.OP);

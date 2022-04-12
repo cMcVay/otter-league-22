@@ -26,7 +26,7 @@ function Roster() {
                     <li>{player.name} | {player.mlb}</li>
                 ))} 
             </ol>
-            <TransactionList teamkey={teamID} />
+
             <h3>Infield</h3>
             <table>
                 <tbody>
