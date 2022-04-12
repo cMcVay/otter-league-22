@@ -2,6 +2,7 @@ import React from "react";
 import {useParams, Link} from "react-router-dom";
 
 import {Players, finalTeams} from './AddTotals';
+import TransactionList from "./TransactionList";
 
 function Roster() {
     let {teamID} = useParams()
@@ -25,35 +26,39 @@ function Roster() {
                     <li>{player.name} | {player.mlb}</li>
                 ))} 
             </ol>
+            <TransactionList teamkey={teamID} />
             <h3>Infield</h3>
             <table>
+                <tbody>
                 {[...Players].filter(player => player.otter === team.name && player.pos === "IF").map(player =>(
                     <tr>
                         <td>{player.name}</td>
                         <td>{player.mlb}</td>
                         <td>{getSum(player.op)}</td>
                     </tr>
-                ))}
+                ))}</tbody>
             </table>
             <h3>Outfield</h3>
             <table>
+                <tbody>
                 {[...Players].filter(player => player.otter === team.name && player.pos === "OF").map(player =>(
                     <tr>
                         <td>{player.name}</td>
                         <td>{player.mlb}</td>
                         <td>{getSum(player.op)}</td>
                     </tr>
-                ))}
+                ))}</tbody>
             </table>
             <h3>Pitchers</h3>
             <table>
+                <tbody>
                 {[...Players].filter(player => player.otter === team.name && player.pos.includes("P")).map(player =>(
                     <tr>
                         <td>{player.name}</td>
                         <td>{player.mlb}</td>
                         <td>{getSum(player.op)}</td>
                     </tr>
-                ))}
+                ))}</tbody>
             </table>
             
         </div>

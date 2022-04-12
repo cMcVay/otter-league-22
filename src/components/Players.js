@@ -1181,6 +1181,19 @@ const rawPlayers = [
         "lock": false,
         "inj": false,
         "otter": "Mindful Freaks"
+    },
+    {
+        "name": "Byron Buxton",
+        "id": "0091",
+        "mlb": "MIN",
+        "pos": "OF",
+        "mvp": true,
+        "hr": true,
+        "spd": true,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Magic Manatees"
     }
 ];
 

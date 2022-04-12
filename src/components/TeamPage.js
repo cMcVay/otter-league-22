@@ -11,6 +11,13 @@ function TeamPage() {
     let matchup = [...rawSchedule][ScoringPeriod].filter(match => match.home === team.id || match.away === team.id);
     let away = finalTeams.find(team => team.id === matchup[0].away);
     let home = finalTeams.find(team => team.id === matchup[0].home);
+    const splitName = (name = '') => {
+        const [firstName, ...lastName] = name.split(' ').filter(Boolean);
+        return {
+          firstName: firstName,
+          lastName: lastName.join(' ')
+        }
+      }
 
     return (
         <div>
