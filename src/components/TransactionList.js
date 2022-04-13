@@ -1,17 +1,20 @@
 import React from 'react';
 import Transactions from './Transactions';
+import { finalTeams } from './AddTotals';
 
 
 
 
-function TransactionList({teamkey}) {
+function TransactionList() {
+
+
     return (
         <>
         <h4>Transactions</h4>
         <ul>
-        {[...Transactions].filter(move => move.teamID === teamkey).map(move => {
-            <li>{move.added} has been added to active roster, replacing the injured {move.injured} - {move.date}</li>
-        })}
+        {[...Transactions].map(move => (
+            <li>{[...finalTeams].find(element => element.id === move.teamID).abbreviation} - {move.added} has been added to active roster, replacing the injured {move.injured} - {move.date}</li>
+    ))}
         </ul>
         </>
     )

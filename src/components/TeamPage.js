@@ -18,6 +18,7 @@ function TeamPage() {
           lastName: lastName.join(' ')
         }
       }
+    let ScoringDay = 6;
 
     return (
         <div>
@@ -25,7 +26,7 @@ function TeamPage() {
                 <Link to={`/`}>home</Link>
             </nav>
             <h1>{team.name}</h1>
-            <h2>Scoring Period {ScoringPeriod+1}</h2>
+            <h2>Scoring Period {ScoringPeriod+1}, Day {ScoringDay}</h2>
             <h4>This week's matchup: {away.name} @ {home.name}</h4>
             <table>
                 <tr>
@@ -48,7 +49,7 @@ function TeamPage() {
                 </tr>
             </table>
             <br/>
-            <h3>Lunar Doodles</h3>
+            <h3>{away.name}</h3>
             <h4>Hitting</h4>
             <table>
                 <tr>
@@ -83,7 +84,7 @@ function TeamPage() {
                 )
                     )}
             </table>
-            <h3>Mindful Freaks</h3>
+            <h3>{home.name}</h3>
             <h4>Hitting</h4>
             <table>
                 <tr>

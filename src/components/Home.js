@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SampleCalculator from './stats/SampleCalculator';
+import TransactionList from './TransactionList';
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
                 <Link to='/Team/5'>Slim Aliens</Link>
             </nav>
             <SampleCalculator />
+            <TransactionList />
         </div>
         
     )
