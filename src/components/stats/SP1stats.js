@@ -1,5 +1,5 @@
 let rawStatsSP1 = [
-    //mindfreaks - needs update
+    //mindfreaks
     {id:"11", game:"3-5, 1 3B, 1 HR, 6 RBI", points:"1.6", OP:"5", day:"6"},
     {id:"12", game:"2-4, 1 2B, 1 RBI, 1 BB, 1 SB", points:"0.9", OP:"3", day:"3"},
     {id:"36", game:"1-3, 1 HR, 1 RBI, 1 BB, 1 SB", points:"0.8", OP:"3", day:"4"},
@@ -27,14 +27,14 @@ let rawStatsSP1 = [
     {id:"13", game:"4.2 IP, 2 H, 0 ER, 0 BB, 4 K", points:"0.837704918032787", OP:"8", day:"1"},
     {id:"61", game:"6 IP, 0 H, 0 ER, 4 BB, 3 K", points:"0.783333333333333", OP:"7", day:"1"},
     //Doodles - needs update
+    {id:"4", game:"4-4, 1 2B, 3 HR, 4 RBI", points:"1.9", OP:"5", day:"7"},
     {id:"64", game:"2-5, 1 HR, 1 RBI, 1 BB", points:"0.9", OP:"3", day:"6"},
-    {id:"4", game:"1-3, 1 HR, 1 RBI, 1 BB", points:"0.7", OP:"2", day:"4"},
     {id:"40", game:"1-4, 1 HR, 2 RBI", points:"0.6", OP:"2", day:"2"},
     {id:"19", game:"2-5, 2 HR, 4 RBI", points:"1.2", OP:"5", day:"2"},
     {id:"76", game:"2-4, 2 HR, 2 RBI", points:"1", OP:"4", day:"6"},
-    {id:"52", game:"2-4, 1 HR, 1 RBI", points:"0.7", OP:"2", day:"6"},
+    {id:"7", game:"1-3, 1 HR, 1 RBI, 2 BB", points:"0.9", OP:"3", day:"7"},
+    {id:"67", game:"6.1 IP, 5 H, 1 ER, 0 BB, 6 K", points:"0.780110497237569", OP:"7", day:"7"},
     {id:"79", game:"7 IP, 3 H, 1 ER, 0 BB, 5 K", points:"0.771428571428571", OP:"7", day:"3"},
-    {id:"16", game:"7 IP, 3 H, 1 ER, 4 BB, 5 K", points:"0.714285714285714", OP:"7", day:"2"},
     //megabytes
     {id:"62", game:"3-5, 1 2B, 1 HR, 3 RBI, 1 BB", points:"1.4", OP:"5", day:"6"},
     {id:"81", game:"3-5, 1 2B, 1 RBI", points:"0.8", OP:"3", day:"2"},
