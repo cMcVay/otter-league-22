@@ -18,7 +18,7 @@ function TeamPage() {
           lastName: lastName.join(' ')
         }
       }
-    let ScoringDay = 6;
+    let ScoringDay = 8;
 
     return (
         <div>
