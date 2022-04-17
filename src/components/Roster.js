@@ -30,7 +30,7 @@ function Roster() {
             <h3>Infield</h3>
             <table>
                 <tbody>
-                {[...Players].filter(player => player.otter === team.name && player.pos === "IF").map(player =>(
+                {[...Players].filter(player => player.otter === team.name && player.pos === "IF" && !player.inj).map(player =>(
                     <tr>
                         <td>{player.name}</td>
                         <td>{player.mlb}</td>
@@ -41,7 +41,7 @@ function Roster() {
             <h3>Outfield</h3>
             <table>
                 <tbody>
-                {[...Players].filter(player => player.otter === team.name && player.pos === "OF").map(player =>(
+                {[...Players].filter(player => player.otter === team.name && player.pos === "OF" && !player.inj).map(player =>(
                     <tr>
                         <td>{player.name}</td>
                         <td>{player.mlb}</td>
@@ -52,13 +52,26 @@ function Roster() {
             <h3>Pitchers</h3>
             <table>
                 <tbody>
-                {[...Players].filter(player => player.otter === team.name && player.pos.includes("P")).map(player =>(
+                {[...Players].filter(player => player.otter === team.name && player.pos.includes("P") && !player.inj).map(player =>(
                     <tr>
                         <td>{player.name}</td>
                         <td>{player.mlb}</td>
                         <td>{getSum(player.op)}</td>
                     </tr>
                 ))}</tbody>
+            </table>
+            <h3>Reserve Roster</h3>
+            <table>
+                <tbody>
+                    {[...Players].filter(player => player.otter === team.name && player.inj).map(player =>(
+                        <tr>
+                            <td>{player.pos}</td>
+                            <td>{player.name}</td>
+                            <td>{player.mlb}</td>
+                            <td>{getSum(player.op)}</td>
+                        </tr>
+                    ))}
+                </tbody>
             </table>
             
         </div>

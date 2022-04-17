@@ -18,6 +18,8 @@ adjTeams.map(team => {
         }
     })
 
+
+    
 let finalTeams = adjTeams;
 
 export {Players , finalTeams};

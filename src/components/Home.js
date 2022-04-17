@@ -13,7 +13,8 @@ function Home() {
                 <Link to='/Team/2'>Magic Manatees</Link><br/>
                 <Link to='/Team/3'>Mighty Megabytes</Link><br/>
                 <Link to='/Team/4'>Mindful Freaks</Link><br/>
-                <Link to='/Team/5'>Slim Aliens</Link>
+                <Link to='/Team/5'>Slim Aliens</Link><br/><br/>
+                <Link to='/Standings'>Standings</Link>
             </nav>
             <SampleCalculator />
             <TransactionList />

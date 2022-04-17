@@ -438,7 +438,7 @@ const rawPlayers = [
         "spd": false,
         "ace": true,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -737,7 +737,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Magic Manatees"
     },
     {
@@ -1190,6 +1190,32 @@ const rawPlayers = [
         "mvp": true,
         "hr": true,
         "spd": true,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Magic Manatees"
+    },
+    {
+        "name": "Noah Syndergaard",
+        "id": "0092",
+        "mlb": "LAA",
+        "pos": "P",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Mighty Megabytes"
+    },
+    {
+        "name": "Seiya Suzuki",
+        "id": "0093",
+        "mlb": "CHC",
+        "pos": "OF",
+        "mvp": false,
+        "hr": true,
+        "spd": false,
         "ace": false,
         "lock": false,
         "inj": false,

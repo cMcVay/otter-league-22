@@ -18,7 +18,7 @@ function TeamPage() {
           lastName: lastName.join(' ')
         }
       }
-    let ScoringDay = 8;
+    let ScoringDay = "Final Score";
 
     return (
         <div>
@@ -37,13 +37,13 @@ function TeamPage() {
                 </tr>
                 <tr>
                     <td>{away.name}</td>
-                    <td>{away.TOT[ScoringPeriod]}</td>
+                    <td><b>{away.TOT[ScoringPeriod]}</b></td>
                     <td>{away.OP[ScoringPeriod]}</td>
                     <td>{away.PF[ScoringPeriod]}</td>
                 </tr>
                 <tr>
                     <td>{home.name}</td>
-                    <td>{home.TOT[ScoringPeriod]}</td>
+                    <td><b>{home.TOT[ScoringPeriod]}</b></td>
                     <td>{home.OP[ScoringPeriod]}</td>
                     <td>{home.PF[ScoringPeriod]}</td>
                 </tr>
@@ -54,6 +54,7 @@ function TeamPage() {
             <table>
                 <tr>
                     <th>Name</th>
+                    <th>Day</th>
                     <th>Game</th>
                     <th>OP</th>
                     <th>T</th>
@@ -61,9 +62,10 @@ function TeamPage() {
                 {Players.filter(player => player.otter === away.name && player.op[ScoringPeriod] && !player.pos.includes("P")).map(player =>(
                     <tr>
                         <td>{player.name}</td>
+                        <td>{player.day[ScoringPeriod]}</td>
                         <td>{player.log[ScoringPeriod]}</td>
                         <td>{player.op[ScoringPeriod]}</td>
-                        <td>{player.tot[ScoringPeriod]}</td>
+                        <td><b>{player.tot[ScoringPeriod]}</b></td>
                     </tr>
                 )
                     )}
@@ -72,12 +74,14 @@ function TeamPage() {
             <table>
                 <tr>
                     <th>Name</th>
+                    <th>Day</th>
                     <th>Game</th>
                     <th>OP</th>
                 </tr>
                 {Players.filter(player => player.otter === away.name && player.op[ScoringPeriod] && player.pos.includes("P")).map(player =>(
                     <tr>
                         <td>{player.name}</td>
+                        <td>{player.day[ScoringPeriod]}</td>
                         <td>{player.log[ScoringPeriod]}</td>
                         <td>{player.op[ScoringPeriod]}</td>
                     </tr>
@@ -89,6 +93,7 @@ function TeamPage() {
             <table>
                 <tr>
                     <th>Name</th>
+                    <th>Day</th>
                     <th>Game</th>
                     <th>OP</th>
                     <th>T</th>
@@ -96,9 +101,10 @@ function TeamPage() {
                 {Players.filter(player => player.otter === home.name && player.op[ScoringPeriod] && !player.pos.includes("P")).map(player =>(
                     <tr>
                         <td>{player.name}</td>
+                        <td>{player.day[ScoringPeriod]}</td>
                         <td>{player.log[ScoringPeriod]}</td>
                         <td>{player.op[ScoringPeriod]}</td>
-                        <td>{player.tot[ScoringPeriod]}</td>
+                        <td><b>{player.tot[ScoringPeriod]}</b></td>
                     </tr>
                 )
                     )}
@@ -107,12 +113,14 @@ function TeamPage() {
             <table>
                 <tr>
                     <th>Name</th>
+                    <th>Day</th>
                     <th>Game</th>
                     <th>OP</th>
                 </tr>
                 {Players.filter(player => player.otter === home.name && player.op[ScoringPeriod] && player.pos.includes("P")).map(player =>(
                     <tr>
                         <td>{player.name}</td>
+                        <td>{player.day[ScoringPeriod]}</td>
                         <td>{player.log[ScoringPeriod]}</td>
                         <td>{player.op[ScoringPeriod]}</td>
                     </tr>
