@@ -27,7 +27,7 @@ Teams.map(team => {
         thesePlayers.map(player => {
             if (player.op[i]) {opSum = parseInt(player.op[i]) + opSum}
         })
-        team.PF.push(Math.floor(opSum/5));
+        team.PF.push(Math.floor((opSum-15)/3) < 0 ? 0 : Math.floor((opSum-15)/3));
     }
         })
 

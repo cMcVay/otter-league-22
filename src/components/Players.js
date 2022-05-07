@@ -204,7 +204,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Magic Manatees"
     },
     {
@@ -438,7 +438,7 @@ const rawPlayers = [
         "spd": false,
         "ace": true,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mighty Megabytes"
     },
     {
@@ -503,7 +503,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -529,7 +529,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Lunar Doodles"
     },
     {
@@ -581,7 +581,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Magic Manatees"
     },
     {
@@ -1075,7 +1075,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Slim Aliens"
     },
     {
@@ -1205,7 +1205,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -1220,6 +1220,45 @@ const rawPlayers = [
         "lock": false,
         "inj": false,
         "otter": "Magic Manatees"
+    },
+    {
+        "name": "Zack Greinke",
+        "id": "0094",
+        "mlb": "KC",
+        "pos": "P",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Slim Aliens"
+    },
+    {
+        "name": "Owen Miller",
+        "id": "0095",
+        "mlb": "CLE",
+        "pos": "IF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Lunar Doodles"
+    },
+    {
+        "name": "Anthony Rizzo",
+        "id": "0096",
+        "mlb": "NYY",
+        "pos": "IF",
+        "mvp": false,
+        "hr": true,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Mighty Megabytes"
     }
 ];
 

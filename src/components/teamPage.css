@@ -1,0 +1,69 @@
+table {
+    table-layout: fixed;
+    background-color: rgb(234, 216, 193);
+    margin: 5px;
+    border-radius: 2px;
+}
+
+td {
+    width: 35px;
+    text-align: center;
+    height: 45px;
+}
+td:nth-child(1) {
+    width: 85px;
+    text-align: start;
+}
+
+td:nth-child(3) {
+    width:160px;
+    text-align: start;
+} 
+tr:nth-child(even) {
+    background-color: rgb(201, 165, 117);
+}
+tr:nth-child(odd) {
+    background-color: rgb(210, 184, 150);
+}
+
+
+table.leadscore {
+    margin: 5px;
+    border-radius: 2px;
+    background-color: rgb(187, 139, 76);
+}
+
+table.leadscore td {
+    width: 50px;
+    background-color: tan;
+    text-align: center;
+}
+table.leadscore td:nth-child(1) {
+    width: 150px;
+    text-align: start;
+}
+
+table.rosterStats td:nth-child(3) {
+    width: 35px;
+    text-align: center;
+}
+
+table.rosterStats td:nth-child(1) {
+    width: 165px;
+}
+
+table.stats td:nth-child(3) {
+    width: 35px;
+}
+table.stats td:nth-child(1) {
+    width: 35px;
+}
+
+table.standings td:nth-child(1) {
+    width:185px;
+}
+
+table.standings td:nth-child(3) {
+    width:35px;
+    text-align: center;
+}

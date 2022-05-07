@@ -13,7 +13,7 @@ function TransactionList() {
         <h4>Transactions</h4>
         <ul>
         {[...Transactions].map(move => (
-            <li>{[...finalTeams].find(element => element.id === move.teamID).abbreviation} - {move.added} has been added to active roster, replacing the injured {move.injured} - {move.date}</li>
+            <li>{[...finalTeams].find(element => element.id === move.teamID).abbreviation} - {move.added} has been added to active roster, replacing {move.injured} - {move.date}</li>
     ))}
         </ul>
         </>

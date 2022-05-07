@@ -1,0 +1,42 @@
+.navLink img {
+    width: 45px;
+}
+
+table {
+    table-layout: fixed;
+}
+.navLinks {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.headingContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+table.fullscore td {
+    width: 50px;
+    text-align: center;
+    background-color: tan;
+
+}
+
+table.fullscore {
+    background-color: rgb(187, 139, 76);
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.scoreBug {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
