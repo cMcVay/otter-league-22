@@ -12,23 +12,26 @@ let rawStatsSP4 = [
     //Manatees
     {id:"27", game:"2-5, 1 HR, 2 RBI", points:"0.8", OP:"3", day:"1"},
     {id:"75", game:"2-4, 1 HR, 1 RBI", points:"0.7", OP:"2", day:"1"},
-    {id:"8", game:"1-4, 1 RBI", points:"0.3", OP:"0", day:"1"},
+    {id:"68", game:"3-5", points:"0.6", OP:"2", day:"3"},
     {id:"44", game:"2-4, 1 3B, 1 HR, 3 RBI, 1 BB", points:"1.3", OP:"5", day:"1"},
-    {id:"91", game:"1-5, 1 HR, 3 RBI", points:"0.7", OP:"2", day:"2"},
-    {id:"3", game:"1-4, 1 BB", points:"0.4", OP:"1", day:"1"},
+    {id:"91", game:"1-2, 1 HR, 1 RBI, 2 BB", points:"0.9", OP:"3", day:"3"},
+    {id:"3", game:"2-4, 1 2B, 2 RBI", points:"0.7", OP:"2", day:"3"},
+    {id:"32", game:"4.2 IP, 5 H, 2 ER, 2 BB, 5 K", points:"0.485714285714286", OP:"4", day:"3"},
     {id:"63", game:"4.2 IP, 8 H, 6 ER, 1 BB, 0 K", points:"-0.00714285714285709", OP:"0", day:"2"},
     //Aliens
     {id:"70", game:"2-4, 1 HR, 2 RBI", points:"0.8", OP:"3", day:"1"},
     {id:"25", game:"0-2, 3 BB", points:"0.6", OP:"2", day:"1"},
-    {id:"85", game:"2-4", points:"0.4", OP:"1", day:"1"},
+    {id:"22", game:"1-4, 1 RBI, 1 BB", points:"0.5", OP:"1", day:"3"},
     {id:"1", game:"2-3, 1 2B, 1 HR, 1 RBI, 2 BB", points:"1.2", OP:"5", day:"2"},
+    {id:"58", game:"4-5, 1 2B, 1 RBI", points:"1", OP:"4", day:"3"},
     {id:"46", game:"3-4, 1 2B", points:"0.7", OP:"2", day:"1"},
-    {id:"58", game:"1-3, 1 2B, 1 BB, 1 SB", points:"0.6", OP:"2", day:"1"},
-    {id:"34", game:"1 IP, 0 H, 0 ER, 0 BB, 1 K", points:"0.7", OP:"7", day:"1"},
+    {id:"34", game:"1 IP, 0 H, 0 ER, 1 BB, 3 K", points:"0.8", OP:"8", day:"3"},
+    {id:"61", game:"7 IP, 5 H, 2 ER, 0 BB, 3 K", points:"0.657142857142857", OP:"6", day:"3"},
+    {id:"49", game:"5 IP, 6 H, 3 ER, 3 BB, 4 K", points:"0.36", OP:"3", day:"3"},
     //Doodles 
     {id:"31", game:"2-5, 2 2B, 3 RBI", points:"0.9", OP:"3", day:"1"},
     {id:"4", game:"1-2, 1 HR, 2 RBI, 1 BB", points:"0.8", OP:"3", day:"2"},
-    {id:"95", game:"1-4, 1 BB", points:"0.4", OP:"1", day:"1"},
+    {id:"64", game:"1-2, 2 BB", points:"0.6", OP:"2", day:"3"},
     {id:"28", game:"3-5, 1 2B, 1 HR, 2 RBI, 1 SB", points:"1.2", OP:"5", day:"2"},
     {id:"7", game:"2-5, 1 2B, 1 HR, 2 RBI", points:"0.9", OP:"3", day:"2"},
     {id:"52", game:"2-5, 2 2B", points:"0.6", OP:"2", day:"1"},
@@ -42,6 +45,7 @@ let rawStatsSP4 = [
     {id:"86", game:"2-5, 1 HR, 2 RBI", points:"0.8", OP:"3", day:"1"},
     {id:"74", game:"1-4, 1 2B", points:"0.3", OP:"0", day:"1"},
     {id:"45", game:"1-4, 1 2B", points:"0.3", OP:"0", day:"2"},
+    {id:"57", game:"1 IP, 0 H, 0 ER, 0 BB, 1 K", points:"0.7", OP:"7", day:"3"},
     {id:"33", game:"5.2 IP, 3 H, 3 ER, 2 BB, 10 K", points:"0.576470588235294", OP:"5", day:"1"},
     //acorns 
     {id:"41", game:"2-4, 1 HR, 5 RBI", points:"1.1", OP:"4", day:"1"},
@@ -51,6 +55,7 @@ let rawStatsSP4 = [
     {id:"6", game:"2-3, 1 HR, 2 RBI", points:"0.8", OP:"3", day:"1"},
     {id:"18", game:"1-3, 1 RBI, 1 BB", points:"0.5", OP:"1", day:"1"},
     {id:"89", game:"1 IP, 0 H, 0 ER, 0 BB, 2 K", points:"0.8", OP:"8", day:"2"},
+    {id:"53", game:"1 IP, 0 H, 0 ER, 0 BB, 1 K", points:"0.7", OP:"7", day:"3"},
 
 ];
 
