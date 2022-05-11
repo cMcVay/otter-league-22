@@ -15,7 +15,7 @@ function SampleCalculator() {
     const [steals, setSteals] = useState(0);
 
     function getPitchingOP(a, b, c, d, e) {
-        let q =Math.floor(((((a*0.2)-(b*0.1)-(c*0.4)-(d*0.1)+(e*0.1))/(a/3)) + (a > 23 ? .3 : a > 17 ? .2 : a > 8 ? .1 : 0))*10)
+        let q =Math.floor(((((a*0.2)-(b*0.1)-(c*0.4)-(d*0.1)+(e*0.1))/(a/3)) + (a > 24 ? .3 : a > 17 ? .2 : a > 8 ? .1 : 0))*10)
         return (
             q > 10 ? 10: q ? q : 0
         )
