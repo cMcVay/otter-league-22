@@ -33,6 +33,26 @@ Players.map(player => {
 }
 )
 
+adjTeams.map(team => {
+    let thePlayers = [...Players].filter(player => player.otter === team.name && !player.pos.includes("P"));
+    for (let i=0; i<20; i++) {
+        let theseDays = [];
+        for (let x=0; x<10; x++){
+            let thisDay = 0;
+            thePlayers.map(player => {
+                if (player.tot[i] && parseInt(player.day[i]) === (x+1)){
+                    thisDay = thisDay + player.tot[i];
+                }
+            })
+            theseDays.push(thisDay)
+        }
+        team.DaysBreakdown.push(theseDays);
+    } 
+        
+}
+);
+console.log(adjTeams);
+
     
 let finalTeams = adjTeams;
 

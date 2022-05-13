@@ -20,18 +20,17 @@ function Home() {
             </div>
             
             <nav className='navLinks'>
-                <Link to='/Team/0' className="navLink"><img src={FrozenAcornsLogo}/></Link>
-                <Link to='/Team/1' className="navLink"><img src={LunarDoodlesLogo}/></Link>
-                <Link to='/Team/2' className="navLink"><img src={MagicManateesLogo}/></Link>
-                <Link to='/Team/3' className="navLink"><img src={MightyMegabytesLogo}/></Link>
-                <Link to='/Team/4' className="navLink"><img src={MindfulFreaksLogo}/></Link>
-                <Link to='/Team/5' className="navLink"><img src={SlimAliensLogo}/></Link>  
+                <Link to='/Team/0' className="navLink"><img src={FrozenAcornsLogo} alt="logo"/></Link>
+                <Link to='/Team/1' className="navLink"><img src={LunarDoodlesLogo} alt="logo"/></Link>
+                <Link to='/Team/2' className="navLink"><img src={MagicManateesLogo} alt="logo"/></Link>
+                <Link to='/Team/3' className="navLink"><img src={MightyMegabytesLogo} alt="logo"/></Link>
+                <Link to='/Team/4' className="navLink"><img src={MindfulFreaksLogo} alt="logo"/></Link>
+                <Link to='/Team/5' className="navLink"><img src={SlimAliensLogo} alt="logo"/></Link>  
             </nav>
             <Link to='/Standings'>Standings</Link>
             <ScoresThisPeriod />
             <SampleCalculator />
             <TransactionList />
-            <p>Potential Rules Update: Considering switching from 2 to 3 pitchers in each lineup. Also, the pitching factor would be smaller ranges. So a team may have two 8s and a 7, and if they can get to three 8s, they's move up a pitching factor. At the moment it seems too much of a guarantee that everyone gets a 3 PF.</p>
         </div>
         
     )

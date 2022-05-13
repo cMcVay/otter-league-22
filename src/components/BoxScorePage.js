@@ -16,6 +16,7 @@ function BoxScorePage() {
     let matchup = [...rawSchedule][period].filter(match => match.home === team.id || match.away === team.id);
     let away = finalTeams.find(team => team.id === matchup[0].away);
     let home = finalTeams.find(team => team.id === matchup[0].home);
+    
 
     return (
         <>
@@ -27,20 +28,46 @@ function BoxScorePage() {
             <h4>This week's matchup: {away.name} @ {home.name}</h4>
             <table className="leadscore">
                 <thead>
-                <tr>
-                    <th></th>
-                    <th>TOTAL</th>
-                    <th>OP</th>
-                    <th>PF</th>
-                </tr></thead>
+                    <td></td>
+                    <td style={{width:"14px"}}>1</td>
+                    <td style={{width:"14px"}}>2</td>
+                    <td style={{width:"14px"}}>3</td>
+                    <td style={{width:"14px"}}>4</td>
+                    <td style={{width:"14px"}}>5</td>
+                    <td style={{width:"14px"}}>6</td>
+                    <td style={{width:"14px"}}>7</td>
+                    <td style={{width:"14px"}}>8</td>
+                    <td style={{width:"14px"}}>9</td>
+                    <td>TOTAL</td>
+                    <td>OP</td>
+                    <td>PF</td>
+                </thead>
                 <tbody><tr>
                     <td>{away.name}</td>
+                    <td style={{width:"14px"}}>{away.DaysBreakdown[period][0]}</td>
+                    <td style={{width:"14px"}}>{away.DaysBreakdown[period][1]}</td>
+                    <td style={{width:"14px"}}>{away.DaysBreakdown[period][2]}</td>
+                    <td style={{width:"14px"}}>{away.DaysBreakdown[period][3]}</td>
+                    <td style={{width:"14px"}}>{away.DaysBreakdown[period][4]}</td>
+                    <td style={{width:"14px"}}>{away.DaysBreakdown[period][5]}</td>
+                    <td style={{width:"14px"}}>{away.DaysBreakdown[period][6]}</td>
+                    <td style={{width:"14px"}}>{away.DaysBreakdown[period][7]}</td>
+                    <td style={{width:"14px"}}>{away.DaysBreakdown[period][8]}</td>
                     <td><b>{away.TOT[period]}</b></td>
                     <td>{away.OP[period]}</td>
                     <td>{away.PF[period]}</td>
                 </tr>
                 <tr>
                     <td>{home.name}</td>
+                    <td style={{width:"14px"}}>{home.DaysBreakdown[period][1]}</td>
+                    <td style={{width:"14px"}}>{home.DaysBreakdown[period][2]}</td>
+                    <td style={{width:"14px"}}>{home.DaysBreakdown[period][0]}</td>
+                    <td style={{width:"14px"}}>{home.DaysBreakdown[period][3]}</td>
+                    <td style={{width:"14px"}}>{home.DaysBreakdown[period][4]}</td>
+                    <td style={{width:"14px"}}>{home.DaysBreakdown[period][5]}</td>
+                    <td style={{width:"14px"}}>{home.DaysBreakdown[period][6]}</td>
+                    <td style={{width:"14px"}}>{home.DaysBreakdown[period][7]}</td>
+                    <td style={{width:"14px"}}>{home.DaysBreakdown[period][8]}</td>
                     <td><b>{home.TOT[period]}</b></td>
                     <td>{home.OP[period]}</td>
                     <td>{home.PF[period]}</td>

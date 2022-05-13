@@ -7,6 +7,7 @@ Teams.map(team => {
     team.PF = [];
     team.TOT = [];
     team.OppoPF = [];
+    team.DaysBreakdown = [];
 })
 Teams.map(team => {
     for (let i=0; i<20; i++){

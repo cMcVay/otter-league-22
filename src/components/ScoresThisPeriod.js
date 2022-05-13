@@ -31,13 +31,14 @@ function ScoresThisPeriod() {
                 return(<>
                 <table className="fullscore">
                 <thead>
-                <tr>
+                
                     <th></th>
                     <th>TOTAL</th>
                     <th>OP</th>
                     <th>PF</th>
-                </tr></thead>
-                <tbody><tr>
+                </thead>
+                <tbody>
+                <tr>
                     <td><img src={away.img} alt="away logo" style={{width: '35px', height: '35px'}}/></td>
                     <td><b>{away.TOT[currentPeriod-1]}</b></td>
                     <td>{away.OP[currentPeriod-1]}</td>
@@ -48,10 +49,12 @@ function ScoresThisPeriod() {
                     <td><b>{home.TOT[currentPeriod-1]}</b></td>
                     <td>{home.OP[currentPeriod-1]}</td>
                     <td>{home.PF[currentPeriod-1]}</td>
-                </tr></tbody>
-                <tr>
-                    <td colspan="4"><Link to={`/BoxScore/${currentPeriod - 1}/${home.id}`} >Boxscore</Link></td>
                 </tr>
+                <tr>
+                    <td colSpan="4"><Link to={`/BoxScore/${currentPeriod - 1}/${home.id}`} >Boxscore</Link></td>
+                </tr>
+                </tbody>
+                
             </table>
             </>)
             })}
