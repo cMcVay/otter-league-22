@@ -529,7 +529,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Lunar Doodles"
     },
     {
@@ -659,7 +659,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -724,7 +724,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Lunar Doodles"
     },
     {
@@ -737,7 +737,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Magic Manatees"
     },
     {
@@ -1075,7 +1075,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Slim Aliens"
     },
     {
@@ -1140,7 +1140,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Magic Manatees"
     },
     {
@@ -1218,7 +1218,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Magic Manatees"
     },
     {
@@ -1231,7 +1231,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Slim Aliens"
     },
     {
@@ -1254,6 +1254,32 @@ const rawPlayers = [
         "pos": "IF",
         "mvp": false,
         "hr": true,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Mighty Megabytes"
+    },
+    {
+        "name": "Carlos Rodon",
+        "id": "0097",
+        "mlb": "SF",
+        "pos": "P",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": true,
+        "lock": false,
+        "inj": false,
+        "otter": "Magic Manatees"
+    },
+    {
+        "name": "C.J. Cron",
+        "id": "0098",
+        "mlb": "COL",
+        "pos": "IF",
+        "mvp": false,
+        "hr": false,
         "spd": false,
         "ace": false,
         "lock": false,

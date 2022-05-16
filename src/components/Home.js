@@ -11,6 +11,7 @@ import MightyMegabytesLogo from "./images/Mighty Megabytes Logo.png";
 import SlimAliensLogo from "./images/Slim Aliens Logo.png";
 import MagicManateesLogo from "./images/Magic Manatees Logo.png";
 import './Home.css';
+import PlayerSearch from './PlayerSearch';
 
 function Home() {
     return (
@@ -30,6 +31,7 @@ function Home() {
             <Link to='/Standings'>Standings</Link>
             <ScoresThisPeriod />
             <SampleCalculator />
+            <PlayerSearch />
             <TransactionList />
         </div>
         

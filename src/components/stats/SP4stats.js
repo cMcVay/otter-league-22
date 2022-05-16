@@ -31,8 +31,8 @@ let rawStatsSP4 = [
     {id:"49", game:"6.1 IP, 6 H, 3 ER, 1 BB, 6 K", points:"0.594736842105263", OP:"5", day:"8"},
     //Doodles 
     {id:"64", game:"2-3, 2 HR, 2 RBI, 2 BB", points:"1.4", OP:"5", day:"4"},
+    {id:"40", game:"2-5, 1 2B, 1 HR, 3 RBI", points:"1", OP:"4", day:"8"},
     {id:"31", game:"2-5, 2 2B, 3 RBI", points:"0.9", OP:"3", day:"1"},
-    {id:"95", game:"2-3, 1 2B, 2 RBI, 1 BB", points:"0.9", OP:"3", day:"4"},
     {id:"28", game:"4-5, 1 2B, 1 3B, 1 HR, 3 RBI", points:"1.6", OP:"5", day:"8"},
     {id:"19", game:"2-4, 1 2B, 1 HR, 2 RBI, 1 BB", points:"1.1", OP:"4", day:"8"},
     {id:"7", game:"2-4, 1 2B, 1 HR, 3 RBI", points:"1", OP:"4", day:"9"},

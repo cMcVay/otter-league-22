@@ -27,14 +27,20 @@ function Roster() {
             <table className="rosterStats">
                 <thead>
                     <th colSpan={2}></th>
-                    <th>OP</th>
+                    <th><abbr title="Games Started">G</abbr></th>
+                    <th><abbr title="Average Otter Points Per Start">AVG</abbr></th>
+                    <th><abbr title="Total Otter Points">OP</abbr></th>
+                    <th><abbr title="Otter Points After Pitching Factor">TOT</abbr></th>
                 </thead>
                 <tbody>
                 {[...Players].filter(player => player.otter === team.name && player.pos === "IF" && !player.inj).map(player =>(
                     <tr>
                         <td>{player.name}</td>
                         <td>{player.mlb}</td>
-                        <td>{getSum(player.op)}</td>
+                        <td>{player.gmStart}</td>
+                        <td>{(player.opSum/player.gmStart).toFixed(2)}</td>
+                        <td>{player.opSum}</td>
+                        <td>{player.totSum}</td>
                     </tr>
                 ))}</tbody>
             </table>
@@ -42,14 +48,20 @@ function Roster() {
             <table className="rosterStats">
                 <thead>
                     <th colSpan={2}></th>
-                    <th>OP</th>
+                    <th><abbr title="Games Started">G</abbr></th>
+                    <th><abbr title="Average Otter Points Per Start">AVG</abbr></th>
+                    <th><abbr title="Total Otter Points">OP</abbr></th>
+                    <th><abbr title="Otter Points After Pitching Factor">TOT</abbr></th>
                 </thead>
                 <tbody>
                 {[...Players].filter(player => player.otter === team.name && player.pos === "OF" && !player.inj).map(player =>(
                     <tr>
                         <td>{player.name}</td>
                         <td>{player.mlb}</td>
-                        <td>{getSum(player.op)}</td>
+                        <td>{player.gmStart}</td>
+                        <td>{(player.opSum/player.gmStart).toFixed(2)}</td>
+                        <td>{player.opSum}</td>
+                        <td>{player.totSum}</td>
                     </tr>
                 ))}</tbody>
             </table>
@@ -57,14 +69,18 @@ function Roster() {
             <table className="rosterStats">
                 <thead>
                     <th colSpan={2}></th>
-                    <th>OP</th>
+                    <th><abbr title="Games Started">G</abbr></th>
+                    <th><abbr title="Average Otter Points Per Start">AVG</abbr></th>
+                    <th><abbr title="Total Otter Points">OP</abbr></th>
                 </thead>
                 <tbody>
                 {[...Players].filter(player => player.otter === team.name && player.pos.includes("P") && !player.inj).map(player =>(
                     <tr>
                         <td>{player.name}</td>
                         <td>{player.mlb}</td>
-                        <td>{getSum(player.op)}</td>
+                        <td>{player.gmStart}</td>
+                        <td>{(player.opSum/player.gmStart).toFixed(2)}</td>
+                        <td>{player.opSum}</td>
                     </tr>
                 ))}</tbody>
             </table>
@@ -72,14 +88,20 @@ function Roster() {
             <table className="rosterStats">
                 <thead>
                     <th colSpan={2}></th>
-                    <th>OP</th>
+                    <th><abbr title="Games Started">G</abbr></th>
+                    <th><abbr title="Average Otter Points Per Start">AVG</abbr></th>
+                    <th><abbr title="Total Otter Points">OP</abbr></th>
+                    <th><abbr title="Otter Points After Pitching Factor">TOT</abbr></th>
                 </thead>
                 <tbody>
                     {[...Players].filter(player => player.otter === team.name && player.inj).map(player =>(
                         <tr>
                             <td>{player.name}</td>
                             <td>{player.mlb}</td>
-                            <td>{getSum(player.op)}</td>
+                            <td>{player.gmStart}</td>
+                            <td>{(player.opSum/player.gmStart).toFixed(2)}</td>
+                            <td>{player.opSum}</td>
+                            <td>{!player.pos.includes("P") ? player.totSum: "-"}</td>
                             <td>{player.pos}</td>
                         </tr>
                     ))}
