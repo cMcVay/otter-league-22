@@ -6,9 +6,9 @@ let rawStatsSP5 = [
     {id:"35", game:"3-4, 1 2B, 1 3B, 1 SB", points:"1", OP:"4", day:"2"},
     {id:"0", game:"2-3, 1 HR, 2 RBI, 1 BB", points:"1", OP:"4", day:"3"},
     {id:"72", game:"1-5, 1 HR, 2 RBI, 1 BB", points:"0.8", OP:"3", day:"1"},
+    {id:"23", game:"7 IP, 4 H, 0 ER, 0 BB, 9 K", points:"0.871428571428572", OP:"8", day:"6"},
     {id:"84", game:"6 IP, 5 H, 2 ER, 1 BB, 8 K", points:"0.7", OP:"7", day:"1"},
     {id:"83", game:"5 IP, 2 H, 0 ER, 3 BB, 5 K", points:"0.7", OP:"7", day:"3"},
-    {id:"71", game:"6 IP, 4 H, 2 ER, 3 BB, 6 K", points:"0.65", OP:"6", day:"3"},
     //Manatees
     {id:"27", game:"2-3, 1 HR, 3 RBI, 2 BB", points:"1.3", OP:"5", day:"5"},
     {id:"39", game:"2-4, 1 2B, 1 HR, 1 RBI, 1 BB", points:"1", OP:"4", day:"5"},
@@ -58,7 +58,7 @@ let rawStatsSP5 = [
     {id:"6", game:"2-4, 1 2B, 1 HR, 2 RBI", points:"0.9", OP:"3", day:"3"},
     {id:"89", game:"1 IP, 0 H, 0 ER, 0 BB, 3 K", points:"0.9", OP:"9", day:"2"},
     {id:"17", game:"7 IP, 5 H, 1 ER, 0 BB, 7 K", points:"0.771428571428571", OP:"7", day:"1"},
-    {id:"53", game:"1 IP, 0 H, 0 ER, 0 BB, 1 K", points:"0.7", OP:"7", day:"1"},
+    {id:"53", game:"1 IP, 0 H, 0 ER, 0 BB, 1 K", points:"0.7", OP:"7", day:"1"}
 
 ];
 
