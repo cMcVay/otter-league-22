@@ -201,11 +201,11 @@ let sortedPlayerHitStats = [...Players].filter(player => !player.pos.includes("P
     }
 });
 
-let sortedPlayerPitchStats = [...Players].filter(player => player.pos.includes("P")).sort((a, b) => {
-    if (a.opSum > b.opSum) {
+let sortedPlayerPitchStats = [...Players].filter(player => player.pos.includes("P") && player.gmStart > (ScoringPeriod*3/4)).sort((a, b) => {
+    if ((a.opSum/a.gmStart) > (b.opSum/b.gmStart)) {
         return -1;
     }
-    else if (a.opSum < b.opSum) {
+    else if ((a.opSum/a.gmStart) < (b.opSum/b.gmStart)) {
         return 1;
     }
     else {
@@ -297,8 +297,8 @@ function StandingsPage() {
                         <td style={{textAlign: 'center'}}>{pitchStatLeaders.indexOf(player) + 1}</td>
                         <td>{player.name}</td>
                         <td><img src={player.logo} alt="team logo" style={{width: '35px', height: '35px'}}/></td>
-                        <td>{player.opSum}</td>
                         <td>{(player.opSum/player.gmStart).toFixed(2)}</td>
+                        <td>{player.opSum}</td>
                     </tr>
                 ))}
             </tbody>

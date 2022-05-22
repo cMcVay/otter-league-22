@@ -30,6 +30,8 @@ function Home() {
             </nav>
             <Link to='/Standings'>Standings</Link>
             <ScoresThisPeriod />
+            <h4>Rule Change Being Considered</h4>
+            <p>A change is being considered for Hitter Otter Points. The current ranges would be adjusted to make it more difficult for a player to reach the three, four, and five Otter Points thresholds. This change would not affect the current records, but it would lead to lower matchup scores that more closely mimic MLB scores. It would also create more interesting matchups with greater potential for higher scores as the week goes on. Additionally, the league leaders listing would be more accurate to players' performances.</p>
             <SampleCalculator />
             <PlayerSearch />
             <TransactionList />
