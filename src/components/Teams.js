@@ -15,7 +15,7 @@ const Teams = [
     {
         name: "Lunar Doodles",
         id: "1",
-        abbreviation: "FA",
+        abbreviation: "LD",
         img: LunarDoodlesLogo
     },
     {

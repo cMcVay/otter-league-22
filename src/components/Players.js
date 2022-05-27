@@ -347,7 +347,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -659,7 +659,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mighty Megabytes"
     },
     {
@@ -724,7 +724,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Lunar Doodles"
     },
     {
@@ -841,7 +841,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Lunar Doodles"
     },
     {
@@ -906,7 +906,7 @@ const rawPlayers = [
         "spd": false,
         "ace": true,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -1282,6 +1282,19 @@ const rawPlayers = [
         "hr": false,
         "spd": false,
         "ace": false,
+        "lock": false,
+        "inj": true,
+        "otter": "Mighty Megabytes"
+    },
+    {
+        "name": "Nestor Cortes",
+        "id": "0099",
+        "mlb": "NYY",
+        "pos": "P",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": true,
         "lock": false,
         "inj": false,
         "otter": "Mighty Megabytes"
