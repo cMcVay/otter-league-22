@@ -227,10 +227,14 @@ for (let i=0; i<10; i++) {
 };
 let pitchStatLeaders = []
 for (let i=0; i<10; i++) {
-    pitchStatLeaders.push(sortedPlayerPitchStats[i])
+    if (sortedPlayerPitchStats[i]) {
+       pitchStatLeaders.push(sortedPlayerPitchStats[i]) 
+    } else { break }
+    
 };
 
 console.log(hitStatLeaders)
+console.log(pitchStatLeaders)
 
 function StandingsPage() {
     return (

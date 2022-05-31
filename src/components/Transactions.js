@@ -1,5 +1,17 @@
 let Transactions = [
     {
+        teamID:"2",
+        added:"Adley Rutschman",
+        injured:"Anthony Rendon",
+        date:"5/31/2022"
+    }, 
+    {
+        teamID:"3",
+        added:"Joc Pederson",
+        injured:"Giancarlo Stanton",
+        date:"5/30/2022"
+    },
+    {
         teamID:"1",
         added:"Joey Votto",
         injured:"Brandon Lowe",

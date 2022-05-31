@@ -360,7 +360,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Magic Manatees"
     },
     {
@@ -399,7 +399,7 @@ const rawPlayers = [
         "spd": false,
         "ace": true,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Frozen Acorns"
     },
     {
@@ -1298,6 +1298,32 @@ const rawPlayers = [
         "lock": false,
         "inj": false,
         "otter": "Mighty Megabytes"
+    },
+    {
+        "name": "Joc Pederson",
+        "id": "0100",
+        "mlb": "SF",
+        "pos": "OF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Mighty Megabytes"
+    },
+    {
+        "name": "Adley Rutschman",
+        "id": "0101",
+        "mlb": "BAL",
+        "pos": "IF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Magic Manatees"
     }
 ];
 
