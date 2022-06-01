@@ -893,7 +893,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Magic Manatees"
     },
     {
@@ -1316,6 +1316,19 @@ const rawPlayers = [
         "name": "Adley Rutschman",
         "id": "0101",
         "mlb": "BAL",
+        "pos": "IF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Magic Manatees"
+    },
+    {
+        "name": "Ty France",
+        "id": "0102",
+        "mlb": "SEA",
         "pos": "IF",
         "mvp": false,
         "hr": false,
