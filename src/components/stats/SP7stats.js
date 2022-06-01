@@ -1,4 +1,4 @@
-let rawStatsSP6 = [
+let rawStatsSP7 = [
     //mindfreaks 
     {id:"11", game:"1-2, 3 BB, 1 SB", points:"0.9", OP:"3", day:"1"},
     {id:"24", game:"2-4, 1 2B, 1 BB", points:"0.7", OP:"2", day:"1"},
@@ -48,4 +48,4 @@ let rawStatsSP6 = [
 
 ];
 
-export default rawStatsSP6;
+export default rawStatsSP7;
