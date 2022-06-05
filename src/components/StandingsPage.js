@@ -292,8 +292,8 @@ function StandingsPage() {
                 <th>Rank</th>
                 <th>Player</th>
                 <th>Team</th>
-                <th><abbr title="Total Otter Points">TOP</abbr></th>
                 <th><abbr title="Otter Points Average">OPAVG</abbr></th>
+                <th><abbr title="Total Otter Points">TOP</abbr></th>
             </thead>
             <tbody>
                 {pitchStatLeaders.map(player => (

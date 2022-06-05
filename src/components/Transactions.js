@@ -1,5 +1,11 @@
 let Transactions = [
     {
+        teamID: "0",
+        added: "Martin Perez",
+        injured: "Brandon Woodruff",
+        date: "5/31/2022"
+    },
+    {
         teamID:"2",
         added:"Ty France",
         injured:"Tim Anderson",

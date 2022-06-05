@@ -1337,6 +1337,19 @@ const rawPlayers = [
         "lock": false,
         "inj": false,
         "otter": "Magic Manatees"
+    },
+    {
+        "name": "Martin Perez",
+        "id": "0103",
+        "mlb": "TEX",
+        "pos": "P",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": true,
+        "lock": false,
+        "inj": false,
+        "otter": "Frozen Acorns"
     }
 ];
 
