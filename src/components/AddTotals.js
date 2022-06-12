@@ -28,7 +28,7 @@ Players.map(player => {
         player.tot[i] ? player.totSum = player.totSum + player.tot[i] : player.totSum = player.totSum + 0
         player.pts[i] ? player.ptsSum = player.ptsSum + parseFloat(player.pts[i]) : player.ptsSum = player.ptsSum + 0
         player.op[i] ? player.opSum = player.opSum + parseInt(player.op[i]) : player.opSum = player.opSum + 0
-        player.pts[i] ? player.gmStart = player.gmStart + 1 : player.gmStart = player.gmStart + 0
+        player.pts[i] !== null ? player.gmStart = player.gmStart + 1 : player.gmStart = player.gmStart + 0
     }
 }
 )

@@ -1,5 +1,23 @@
 let Transactions = [
     {
+        teamID:"3",
+        added:"Carlos Correa",
+        injured:"C.J. Cron",
+        date:"6/9/2022"
+    },
+    {
+        teamID:"3",
+        added:"Giancarlo Stanton",
+        injured:"Joc Pederson",
+        date:"6/9/2022"
+    },
+    {
+        teamID:"2",
+        added:"Clayton Kershaw",
+        injured:"Logan Webb",
+        date:"6/9/2022"
+    },
+    {
         teamID: "0",
         added: "Martin Perez",
         injured: "Brandon Woodruff",
@@ -34,6 +52,12 @@ let Transactions = [
         added:"Nestor Cortes",
         injured:"Aroldis Chapman",
         date:"5/26/2022"
+    },
+    {
+        teamID:"3",
+        added:"C.J. Cron",
+        injured:"Carlos Correa",
+        date:"5/22/2022"
     },
     {
         teamID:"3",

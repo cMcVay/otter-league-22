@@ -12,7 +12,7 @@ function findPeriod(x) {
             break;
         }
     }
-    return periodNumber - 1;
+    return periodNumber;
 }
 
 const today = new Date()

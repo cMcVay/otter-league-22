@@ -6,6 +6,7 @@ import rawStatsSP4 from "./stats/SP4stats";
 import rawStatsSP5 from "./stats/SP5stats";
 import rawStatsSP6 from "./stats/SP6stats";
 import rawStatsSP7 from "./stats/SP7stats";
+import rawStatsSP8 from "./stats/SP8stats";
 import Teams from "./Teams";
 
 
@@ -88,6 +89,13 @@ rawStatsSP7.map(player => {
     rawPlayers[parseInt(player.id)].op.splice(6, 1, player.OP);
     rawPlayers[parseInt(player.id)].pts.splice(6, 1, player.points);
     rawPlayers[parseInt(player.id)].day.splice(6, 1, player.day);
+})
+
+rawStatsSP8.map(player => {
+    rawPlayers[parseInt(player.id)].log.splice(7, 1, player.game);
+    rawPlayers[parseInt(player.id)].op.splice(7, 1, player.OP);
+    rawPlayers[parseInt(player.id)].pts.splice(7, 1, player.points);
+    rawPlayers[parseInt(player.id)].day.splice(7, 1, player.day);
 })
 
 
