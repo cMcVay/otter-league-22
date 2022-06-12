@@ -30,8 +30,18 @@ function Home() {
             </nav>
             <Link to='/Standings'>Standings</Link>
             <ScoresThisPeriod />
-            <h4>Rule Change Being Considered</h4>
-            <p>A change is being considered for Hitter Otter Points. The current ranges would be adjusted to make it more difficult for a player to reach the three, four, and five Otter Points thresholds. This change would not affect the current records, but it would lead to lower matchup scores that more closely mimic MLB scores. It would also create more interesting matchups with greater potential for higher scores as the week goes on. Additionally, the league leaders listing would be more accurate to players' performances.</p>
+            <h4>All Star Voting is open</h4>
+            <p>Otter fantasy baseball encompasses the full season and post season. Teams can attain points towards the overall year's competition by not just finishing better in the regular season and postseason, but also by having more all stars. For each all star selection, a team in Otter Baseball is rewarded with 1 point towards the overall year. The breakdown of rewards otherwise are:</p>
+            <ul>
+                <li>Regular Season (1st: 15pts, 2nd: 12pts, 3rd: 9pts, 4th: 6pts, 5th: 3pts, 6th: 0pts)</li>
+                <li>Postseason (1st: 10pts, 2nd: 8pts, 3rd: 6pts, 4th: 4pts, 5th: 2pts, 6th: 0pts)</li>
+                <li>Home Run Derby Winner (2pts) </li> 
+                <li>All Star Game MVP (2pts)</li>
+                <li>Best Otter League Hitter (2pts)</li>
+                <li>Best Otter League Pitcher (2pts)</li>
+            </ul>             
+            <h4>Rule Change Will Be Applied</h4>
+            <p>A change to Otter Point hitter scoring will take effect later this season and will apply retroactively. The change is very unlikely to affect outcomes except in close matchups, but the new results will be more accurate to player performance. This change should be expected around Scoring Period 15.</p>
             <SampleCalculator />
             <PlayerSearch />
             <TransactionList />

@@ -12,11 +12,13 @@ function findPeriod(x) {
             break;
         }
     }
-    return periodNumber;
+    return periodNumber - 1;
 }
 
 const today = new Date()
-
+console.log(today)
+console.log(Date(periodBreakdown[8].end))
+console.log(today > Date(periodBreakdown[8].end))
 const periodNumber = findPeriod(today);
 
 const startDate = new Date(periodBreakdown[periodNumber-1].start);

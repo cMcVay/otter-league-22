@@ -659,7 +659,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -1283,7 +1283,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mighty Megabytes"
     },
     {
