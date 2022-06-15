@@ -1350,6 +1350,32 @@ const rawPlayers = [
         "lock": false,
         "inj": false,
         "otter": "Frozen Acorns"
+    },
+    {
+        "name": "Julio Rodriguez",
+        "id": "0104",
+        "mlb": "SEA",
+        "pos": "OF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Mindful Freaks"
+    },
+    {
+        "name": "Shane McClanahan",
+        "id": "0105",
+        "mlb": "TB",
+        "pos": "P",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": true,
+        "lock": false,
+        "inj": false,
+        "otter": "Mighty Megagbytes"
     }
 ];
 
