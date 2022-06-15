@@ -1375,7 +1375,7 @@ const rawPlayers = [
         "ace": true,
         "lock": false,
         "inj": false,
-        "otter": "Mighty Megagbytes"
+        "otter": "Mighty Megabytes"
     }
 ];
 

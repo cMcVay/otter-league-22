@@ -4,9 +4,12 @@ import ScoringPeriod from "./stats/ScoringPeriod";
 
 Players.map(player => {
     for (let i=0; i<20; i++){
-    let playersTeam = adjTeams.find(team => team.name === player.otter)
-    let delta = parseInt(player.op[i]) - playersTeam.OppoPF[i]
-    Players[parseInt(player.id)].tot.splice(i, 1, (isNaN(delta) ? null : delta < 0 ? 0 : delta))}
+        let playersTeam = adjTeams.find(team => team.name === player.otter)
+        console.log(i)
+        console.log(player.name + " "+ i + " " + playersTeam.OppoPF[i])
+        let delta = parseInt(player.op[i]) - (playersTeam.OppoPF[i] ? playersTeam.OppoPF[i] : 0)
+        Players[parseInt(player.id)].tot.splice(i, 1, (isNaN(delta) ? null : delta < 0 ? 0 : delta))
+    }
 });
 
 
