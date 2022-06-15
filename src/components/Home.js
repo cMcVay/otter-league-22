@@ -39,7 +39,8 @@ function Home() {
                 <li>All Star Game MVP (2pts)</li>
                 <li>Best Otter League Hitter (2pts)</li>
                 <li>Best Otter League Pitcher (2pts)</li>
-            </ul>             
+            </ul>
+            <a href="https://www.mlb.com/all-star/ballot">All Star Ballot Link</a>             
             <h4>Rule Change Will Be Applied</h4>
             <p>A change to Otter Point hitter scoring will take effect later this season and will apply retroactively. The change is very unlikely to affect outcomes except in close matchups, but the new results will be more accurate to player performance. This change should be expected around Scoring Period 15.</p>
             <SampleCalculator />
