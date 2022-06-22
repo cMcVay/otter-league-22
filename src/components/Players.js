@@ -1075,7 +1075,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Slim Aliens"
     },
     {
