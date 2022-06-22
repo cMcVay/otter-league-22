@@ -87,7 +87,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Frozen Acorns"
     },
     {
@@ -451,7 +451,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": true,
-        "inj": false,
+        "inj": true,
         "otter": "Slim Aliens"
     },
     {
@@ -646,7 +646,7 @@ const rawPlayers = [
         "spd": false,
         "ace": true,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Slim Aliens"
     },
     {
@@ -776,7 +776,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mindful Freaks"
     },
     {
@@ -789,7 +789,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mindful Freaks"
     },
     {
