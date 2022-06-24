@@ -1376,7 +1376,59 @@ const rawPlayers = [
         "lock": false,
         "inj": false,
         "otter": "Mighty Megabytes"
-    }
+    },
+    {
+        "name": "Michael Brantley",
+        "id": "0106",
+        "mlb": "HOU",
+        "pos": "OF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Frozen Acorns"
+    },
+    {
+        "name": "Ryan Mountcastle",
+        "id": "0107",
+        "mlb": "BAL",
+        "pos": "IF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Slim Aliens"
+    },
+    {
+        "name": "Dylan Cease",
+        "id": "0108",
+        "mlb": "CHW",
+        "pos": "P",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": true,
+        "lock": false,
+        "inj": false,
+        "otter": "Slim Aliens"
+    },
+    {
+        "name": "Max Fried",
+        "id": "0109",
+        "mlb": "ATL",
+        "pos": "P",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": true,
+        "lock": false,
+        "inj": false,
+        "otter": "Slim Aliens"
+    },
 ];
 
 

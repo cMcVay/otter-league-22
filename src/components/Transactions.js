@@ -1,5 +1,29 @@
 let Transactions = [
     {
+        teamID:"0",
+        added:"Michael Brantley",
+        injured:"Mookie Betts",
+        date:"6/22/2022"
+    },
+    {
+        teamID:"5",
+        added:"Ryan Mountcastle",
+        injured:"Wander Franco",
+        date:"6/22/2022"
+    },
+    {
+        teamID:"5",
+        added:"Max Fried",
+        injured:"Nathan Eovaldi",
+        date:"6/22/2022"
+    },
+    {
+        teamID:"5",
+        added:"Dylan Cease",
+        injured:"Liam Hendriks",
+        date:"6/22/2022"
+    },
+    {
         teamID:"3",
         added:"C.J. Cron",
         injured:"Ozzie Albies",
