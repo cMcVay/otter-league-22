@@ -1010,7 +1010,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Frozen Acorns"
     },
     {
