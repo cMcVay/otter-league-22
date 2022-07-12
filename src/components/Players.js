@@ -100,7 +100,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Lunar Doodles"
     },
     {
@@ -126,7 +126,7 @@ const rawPlayers = [
         "spd": false,
         "ace": true,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mighty Megabytes"
     },
     {
@@ -438,7 +438,7 @@ const rawPlayers = [
         "spd": false,
         "ace": true,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -451,7 +451,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": true,
-        "inj": true,
+        "inj": false,
         "otter": "Slim Aliens"
     },
     {
@@ -503,7 +503,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mighty Megabytes"
     },
     {
@@ -815,7 +815,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -997,7 +997,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Lunar Doodles"
     },
     {
@@ -1075,7 +1075,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Slim Aliens"
     },
     {
@@ -1257,7 +1257,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -1283,7 +1283,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mighty Megabytes"
     },
     {
