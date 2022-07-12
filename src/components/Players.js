@@ -1429,6 +1429,32 @@ const rawPlayers = [
         "inj": false,
         "otter": "Slim Aliens"
     },
+    {
+        "name": "Austin Hayes",
+        "id": "0110",
+        "mlb": "BAL",
+        "pos": "OF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Lunar Doodles"
+    },
+    {
+        "name": "Ian Happ",
+        "id": "0111",
+        "mlb": "CHC",
+        "pos": "OF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Lunar Doodles"
+    }
 ];
 
 

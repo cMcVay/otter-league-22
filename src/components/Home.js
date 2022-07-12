@@ -30,7 +30,23 @@ function Home() {
             </nav>
             <Link to='/Standings'>Standings</Link>
             <ScoresThisPeriod />
-            <h4>All Star Voting is open</h4>
+            <h4>All Star Rosters Announced</h4>
+            <p>Here are how the points are rewarded for the All Star Game selections (1pt per player):</p>
+            <ul>
+                <li><b>Frozen Acorns (11):</b> Arenado, Devers, Alonso, Alvarez, Springer, Cole, Burnes, Diaz, Chisholm Jr, Betts, Perez</li>
+                <li><b>Mindful Freaks (8):</b> Ramirez, Machado, Ohtani, Marte, Schwarber, Rodriguez, Musgrove, Verlander</li>
+                <li><b>Mighty Megabytes (8):</b> Bogaerts, Judge, Stanton, Hader, Cortes, McClanahan, Cron, Pederson</li>
+                <li><b>Magic Manatees (7):</b> Turner, Trout, Acuna Jr, Buxton, Alcantara, Kershaw, Anderson</li>
+                <li><b>Lunar Doodles (5):</b> Guerrero Jr, Altuve, Harper, Tucker, Happ</li>
+                <li><b>Slim Aliens (3):</b> Goldschmidt, Soto, Fried</li>
+            </ul>
+            <p>Home Run Derby Participants (winner receives 2 pts)</p>
+            <ul>
+                <li>Juan Soto (FA)</li>
+                <li>Pete Alonso (FA)</li>
+                <li>Ronald Acuna Jr (MT)</li>
+                <li>Albert Pujols</li>
+            </ul>
             <p>Otter fantasy baseball encompasses the full season and post season. Teams can attain points towards the overall year's competition by not just finishing better in the regular season and postseason, but also by having more all stars. For each all star selection, a team in Otter Baseball is rewarded with 1 point towards the overall year. The breakdown of rewards otherwise are:</p>
             <ul>
                 <li>Regular Season (1st: 15pts, 2nd: 12pts, 3rd: 9pts, 4th: 6pts, 5th: 3pts, 6th: 0pts)</li>
@@ -39,8 +55,7 @@ function Home() {
                 <li>All Star Game MVP (2pts)</li>
                 <li>Best Otter League Hitter (2pts)</li>
                 <li>Best Otter League Pitcher (2pts)</li>
-            </ul>
-            <a href="https://www.mlb.com/all-star/ballot">All Star Ballot Link</a>             
+            </ul>             
             <h4>Rule Change Will Be Applied</h4>
             <p>A change to Otter Point hitter scoring will take effect later this season and will apply retroactively. The change is very unlikely to affect outcomes except in close matchups, but the new results will be more accurate to player performance. This change should be expected around Scoring Period 15.</p>
             <SampleCalculator />
