@@ -34,9 +34,9 @@ function Home() {
             <p>Here are how the points are rewarded for the All Star Game selections (1pt per player):</p>
             <ul>
                 <li><b>Frozen Acorns (11):</b> Arenado, Devers, Alonso, Alvarez, Springer, Cole, Burnes, Diaz, Chisholm Jr, Betts, Perez</li>
+                <li><b>Mighty Megabytes (9):</b> Bogaerts, Judge, Stanton, Hader, Cortes, McClanahan, Cron, Pederson, Martinez</li>
+                <li><b>Magic Manatees (8):</b> Turner, Trout, Acuna Jr, Buxton, Alcantara, Kershaw, Anderson, Rodon</li>
                 <li><b>Mindful Freaks (8):</b> Ramirez, Machado, Ohtani, Marte, Schwarber, Rodriguez, Musgrove, Verlander</li>
-                <li><b>Mighty Megabytes (8):</b> Bogaerts, Judge, Stanton, Hader, Cortes, McClanahan, Cron, Pederson</li>
-                <li><b>Magic Manatees (7):</b> Turner, Trout, Acuna Jr, Buxton, Alcantara, Kershaw, Anderson</li>
                 <li><b>Lunar Doodles (5):</b> Guerrero Jr, Altuve, Harper, Tucker, Happ</li>
                 <li><b>Slim Aliens (3):</b> Goldschmidt, Soto, Fried</li>
             </ul>
@@ -45,6 +45,7 @@ function Home() {
                 <li>Juan Soto (FA)</li>
                 <li>Pete Alonso (FA)</li>
                 <li>Ronald Acuna Jr (MT)</li>
+                <li>Kyle Schwarber (MF)</li>
                 <li>Albert Pujols</li>
             </ul>
             <p>Otter fantasy baseball encompasses the full season and post season. Teams can attain points towards the overall year's competition by not just finishing better in the regular season and postseason, but also by having more all stars. For each all star selection, a team in Otter Baseball is rewarded with 1 point towards the overall year. The breakdown of rewards otherwise are:</p>
