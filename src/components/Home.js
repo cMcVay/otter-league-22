@@ -46,6 +46,8 @@ function Home() {
                 <li>Pete Alonso (FA)</li>
                 <li>Ronald Acuna Jr (MT)</li>
                 <li>Kyle Schwarber (MF)</li>
+                <li>Julio Rodriguez (MF)</li>
+                <li>Jose Ramirez (MF)</li>
                 <li>Albert Pujols</li>
             </ul>
             <p>Otter fantasy baseball encompasses the full season and post season. Teams can attain points towards the overall year's competition by not just finishing better in the regular season and postseason, but also by having more all stars. For each all star selection, a team in Otter Baseball is rewarded with 1 point towards the overall year. The breakdown of rewards otherwise are:</p>
