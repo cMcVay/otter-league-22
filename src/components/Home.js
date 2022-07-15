@@ -42,13 +42,10 @@ function Home() {
             </ul>
             <p>Home Run Derby Participants (winner receives 2 pts)</p>
             <ul>
-                <li>Juan Soto (FA)</li>
-                <li>Pete Alonso (FA)</li>
-                <li>Ronald Acuna Jr (MT)</li>
-                <li>Kyle Schwarber (MF)</li>
-                <li>Julio Rodriguez (MF)</li>
-                <li>Jose Ramirez (MF)</li>
-                <li>Albert Pujols</li>
+                <li>Kyle Schwarber (MF) vs Albert Pujols</li>
+                <li>Juan Soto (FA) vs Jose Ramirez (MF)</li>
+                <li>Corey Seager (MT) vs Julio Rodriguez (MF)</li>
+                <li>Pete Alonso (FA) vs Ronald Acuna Jr (MT)</li>
             </ul>
             <p>Otter fantasy baseball encompasses the full season and post season. Teams can attain points towards the overall year's competition by not just finishing better in the regular season and postseason, but also by having more all stars. For each all star selection, a team in Otter Baseball is rewarded with 1 point towards the overall year. The breakdown of rewards otherwise are:</p>
             <ul>

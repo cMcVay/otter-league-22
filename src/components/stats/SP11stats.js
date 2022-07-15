@@ -13,7 +13,7 @@ let rawStatsSP11 = [
     {id:"39", game:"2-3, 1 HR, 3 RBI, 1 BB", points:"1.1", OP:"4", day:"3"},
     {id:"8", game:"2-4, 1 HR, 2 RBI", points:"0.8", OP:"3", day:"7"},
     {id:"75", game:"2-5, 1 HR, 2 RBI", points:"0.8", OP:"3", day:"7"},
-    {id:"20", game:"3-4, 1 HR, 3 RBI, 1 BB", points:"1.3", OP:"5", day:"7"},
+    {id:"20", game:"3-5, 1 2B, 1 HR, 5 RBI", points:"1.4", OP:"5", day:"9"},
     {id:"3", game:"3-5, 1 HR, 3 RBI, 1 SB", points:"1.2", OP:"5", day:"3"},
     {id:"56", game:"2-4, 2 HR, 4 RBI", points:"1.2", OP:"5", day:"8"},
     {id:"97", game:"9 IP, 3 H, 1 ER, 2 BB, 12 K", points:"0.933333333333333", OP:"9", day:"4"},
@@ -32,7 +32,7 @@ let rawStatsSP11 = [
     //Doodles 
     {id:"40", game:"1-2, 1 HR, 3 RBI, 2 BB", points:"1.1", OP:"4", day:"2"},
     {id:"31", game:"2-4, 1 2B, 3 RBI", points:"0.8", OP:"3", day:"5"},
-    {id:"4", game:"1-3, 1 HR, 2 RBI", points:"0.6", OP:"2", day:"8"},
+    {id:"55", game:"2-5, 1 2B, 2 RBI", points:"0.7", OP:"2", day:"9"},
     {id:"110", game:"4-5, 1 2B", points:"0.9", OP:"3", day:"8"},
     {id:"52", game:"3-4, 1 2B", points:"0.7", OP:"2", day:"3"},
     {id:"19", game:"1-4, 1 2B, 1 RBI, 1 BB", points:"0.6", OP:"2", day:"7"},

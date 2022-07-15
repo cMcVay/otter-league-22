@@ -1,3 +1,3 @@
-let ScoringPeriod = 10;
+let ScoringPeriod = 11;
 
 export default ScoringPeriod;
