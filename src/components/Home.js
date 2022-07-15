@@ -35,7 +35,7 @@ function Home() {
             <ul>
                 <li><b>Frozen Acorns (11):</b> Arenado, Devers, Alonso, Alvarez, Springer, Cole, Burnes, Diaz, Chisholm Jr, Betts, Perez</li>
                 <li><b>Mighty Megabytes (9):</b> Bogaerts, Judge, Stanton, Hader, Cortes, McClanahan, Cron, Pederson, Martinez</li>
-                <li><b>Magic Manatees (8):</b> Turner, Trout, Acuna Jr, Buxton, Alcantara, Kershaw, Anderson, Rodon</li>
+                <li><b>Magic Manatees (9):</b> Turner, Trout, Acuna Jr, Buxton, Alcantara, Kershaw, Anderson, Rodon, Seager</li>
                 <li><b>Mindful Freaks (8):</b> Ramirez, Machado, Ohtani, Marte, Schwarber, Rodriguez, Musgrove, Verlander</li>
                 <li><b>Lunar Doodles (5):</b> Guerrero Jr, Altuve, Harper, Tucker, Happ</li>
                 <li><b>Slim Aliens (3):</b> Goldschmidt, Soto, Fried</li>
