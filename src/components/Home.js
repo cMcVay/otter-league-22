@@ -30,23 +30,44 @@ function Home() {
             </nav>
             <Link to='/Standings'>Standings</Link>
             <ScoresThisPeriod />
+            <h4>All Star Game Tonight</h4>
+            <p>AL</p>
+            <p>SP: Shane McClanahan (MB)</p>
+            <ol>
+                <li>Shohei Ohtani (MF)</li>
+                <li>Aaron Judge (MB)</li>
+                <li>Rafael Devers (FA)</li>
+                <li>Vladimir Guerrero Jr (LD)</li>
+                <li>Giancarlo Stanton (MB)</li>
+                <li>Byron Buxton (MT)</li>
+                <li>Tim Anderson (MT)</li>
+                <li>Andres Gimenez</li>
+                <li>Alejandro Kirk</li>
+            </ol>
+            <p>NL</p>
+            <p>SP: Clayton Kershaw (MT)</p>
+            <ol>
+                <li>Ronald Acuna Jr (MT)</li>
+                <li>Mookie Betts (FA)</li>
+                <li>Manny Machado (MF)</li>
+                <li>Paul Goldschmidt (SA)</li>
+                <li>Trea Turner (MT)</li>
+                <li>Wilson Contreras</li>
+                <li>William Contreras</li>
+                <li>Joc Pederson (MB)</li>
+                <li>Jeff McNeil</li>
+            </ol>
             <h4>All Star Rosters Announced</h4>
             <p>Here are how the points are rewarded for the All Star Game selections (1pt per player):</p>
             <ul>
                 <li><b>Frozen Acorns (11):</b> Arenado, Devers, Alonso, Alvarez, Springer, Cole, Burnes, Diaz, Chisholm Jr, Betts, Perez</li>
-                <li><b>Mighty Megabytes (9):</b> Bogaerts, Judge, Stanton, Hader, Cortes, McClanahan, Cron, Pederson, Martinez</li>
+                <li><b>Mighty Megabytes (10):</b> Bogaerts, Judge, Stanton, Hader, Cortes, McClanahan, Cron, Pederson, Martinez, Freeman</li>
                 <li><b>Magic Manatees (9):</b> Turner, Trout, Acuna Jr, Buxton, Alcantara, Kershaw, Anderson, Rodon, Seager</li>
                 <li><b>Mindful Freaks (8):</b> Ramirez, Machado, Ohtani, Marte, Schwarber, Rodriguez, Musgrove, Verlander</li>
                 <li><b>Lunar Doodles (5):</b> Guerrero Jr, Altuve, Harper, Tucker, Happ</li>
-                <li><b>Slim Aliens (3):</b> Goldschmidt, Soto, Fried</li>
+                <li><b>Slim Aliens (4):</b> Goldschmidt, Soto, Fried, Hendriks</li>
             </ul>
-            <p>Home Run Derby Participants (winner receives 2 pts)</p>
-            <ul>
-                <li>Kyle Schwarber (MF) vs Albert Pujols</li>
-                <li>Juan Soto (FA) vs Jose Ramirez (MF)</li>
-                <li>Corey Seager (MT) vs Julio Rodriguez (MF)</li>
-                <li>Pete Alonso (FA) vs Ronald Acuna Jr (MT)</li>
-            </ul>
+            <h4>Julio Rodriguez is Home Run Derby Winner (Mindful Freaks earn 2 pts)</h4>
             <p>Otter fantasy baseball encompasses the full season and post season. Teams can attain points towards the overall year's competition by not just finishing better in the regular season and postseason, but also by having more all stars. For each all star selection, a team in Otter Baseball is rewarded with 1 point towards the overall year. The breakdown of rewards otherwise are:</p>
             <ul>
                 <li>Regular Season (1st: 15pts, 2nd: 12pts, 3rd: 9pts, 4th: 6pts, 5th: 3pts, 6th: 0pts)</li>
