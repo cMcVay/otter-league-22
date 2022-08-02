@@ -2,6 +2,8 @@ import rawPlayers from "./Players";
 import rawStatsSP10 from "./stats/SP10stats";
 import rawStatsSP11 from "./stats/SP11stats";
 import rawStatsSP12 from "./stats/SP12stats";
+import rawStatsSP13 from "./stats/SP13stats";
+import rawStatsSP14 from "./stats/SP14stats";
 import rawStatsSP1 from "./stats/SP1stats";
 import rawStatsSP2 from "./stats/SP2stats";
 import rawStatsSP3 from "./stats/SP3stats";
@@ -129,6 +131,15 @@ rawStatsSP12.map(player => {
     rawPlayers[parseInt(player.id)].pts.splice(11, 1, player.points);
     rawPlayers[parseInt(player.id)].day.splice(11, 1, player.day);
 })
+
+rawStatsSP13.map(player => {
+    rawPlayers[parseInt(player.id)].log.splice(12, 1, player.game);
+    rawPlayers[parseInt(player.id)].op.splice(12, 1, player.OP);
+    rawPlayers[parseInt(player.id)].pts.splice(12, 1, player.points);
+    rawPlayers[parseInt(player.id)].day.splice(12, 1, player.day);
+})
+
+
 
 
 let Players = rawPlayers;

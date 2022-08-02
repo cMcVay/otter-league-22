@@ -30,34 +30,8 @@ function Home() {
             </nav>
             <Link to='/Standings'>Standings</Link>
             <ScoresThisPeriod />
-            <h4>All Star Game Tonight</h4>
-            <p>AL</p>
-            <p>SP: Shane McClanahan (MB)</p>
-            <ol>
-                <li>Shohei Ohtani (MF)</li>
-                <li>Aaron Judge (MB)</li>
-                <li>Rafael Devers (FA)</li>
-                <li>Vladimir Guerrero Jr (LD)</li>
-                <li>Giancarlo Stanton (MB)</li>
-                <li>Byron Buxton (MT)</li>
-                <li>Tim Anderson (MT)</li>
-                <li>Andres Gimenez</li>
-                <li>Alejandro Kirk</li>
-            </ol>
-            <p>NL</p>
-            <p>SP: Clayton Kershaw (MT)</p>
-            <ol>
-                <li>Ronald Acuna Jr (MT)</li>
-                <li>Mookie Betts (FA)</li>
-                <li>Manny Machado (MF)</li>
-                <li>Paul Goldschmidt (SA)</li>
-                <li>Trea Turner (MT)</li>
-                <li>Wilson Contreras</li>
-                <li>William Contreras</li>
-                <li>Joc Pederson (MB)</li>
-                <li>Jeff McNeil</li>
-            </ol>
-            <h4>All Star Rosters Announced</h4>
+            <h4>Stanton named All Star MVP (Mighty Megabytes earn 2 pts)</h4>
+            <h4>All Star Rosters</h4>
             <p>Here are how the points are rewarded for the All Star Game selections (1pt per player):</p>
             <ul>
                 <li><b>Frozen Acorns (11):</b> Arenado, Devers, Alonso, Alvarez, Springer, Cole, Burnes, Diaz, Chisholm Jr, Betts, Perez</li>

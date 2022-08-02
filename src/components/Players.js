@@ -743,7 +743,7 @@ const rawPlayers = [
     {
         "name": "Josh Hader",
         "id": "0057",
-        "mlb": "MIL",
+        "mlb": "SD",
         "pos": "RP",
         "mvp": false,
         "hr": false,
@@ -854,7 +854,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Frozen Acorns"
     },
     {
@@ -873,7 +873,7 @@ const rawPlayers = [
     {
         "name": "Frankie Montas",
         "id": "0067",
-        "mlb": "OAK",
+        "mlb": "NYY",
         "pos": "P",
         "mvp": false,
         "hr": false,
@@ -951,7 +951,7 @@ const rawPlayers = [
     {
         "name": "Tommy Pham",
         "id": "0073",
-        "mlb": "CIN",
+        "mlb": "BOS",
         "pos": "OF",
         "mvp": false,
         "hr": false,
@@ -1454,6 +1454,32 @@ const rawPlayers = [
         "lock": false,
         "inj": false,
         "otter": "Lunar Doodles"
+    },
+    {
+        "name": "Luis Arraez",
+        "id": "0112",
+        "mlb": "MIN",
+        "pos": "IF",
+        "mvp": false,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Frozen Acorns"
+    },
+    {
+        "name": "Austin Riley",
+        "id": "0113",
+        "mlb": "ATL",
+        "pos": "IF",
+        "mvp": true,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Frozen Acorns"
     }
 ];
 
