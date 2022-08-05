@@ -15,7 +15,7 @@ const rawPlayers = [
     {
         "name": "Juan Soto",
         "id": "0001",
-        "mlb": "WSH",
+        "mlb": "SD",
         "pos": "OF",
         "mvp": true,
         "hr": true,
@@ -48,7 +48,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Magic Manatees"
     },
     {
@@ -87,7 +87,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Frozen Acorns"
     },
     {
@@ -347,7 +347,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -412,7 +412,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Lunar Doodles"
     },
     {
@@ -503,7 +503,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mighty Megabytes"
     },
     {
@@ -581,7 +581,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Magic Manatees"
     },
     {
@@ -691,7 +691,7 @@ const rawPlayers = [
     {
         "name": "Raisel Iglesias",
         "id": "0053",
-        "mlb": "LAA",
+        "mlb": "ATL",
         "pos": "RP",
         "mvp": false,
         "hr": false,
@@ -782,14 +782,14 @@ const rawPlayers = [
     {
         "name": "Joey Gallo",
         "id": "0060",
-        "mlb": "NYY",
+        "mlb": "LAD",
         "pos": "OF",
         "mvp": false,
         "hr": true,
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mindful Freaks"
     },
     {
@@ -841,7 +841,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Lunar Doodles"
     },
     {
@@ -893,7 +893,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Magic Manatees"
     },
     {
@@ -1049,7 +1049,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Magic Manatees"
     },
     {
@@ -1094,7 +1094,7 @@ const rawPlayers = [
     {
         "name": "Tyler Mahle",
         "id": "0084",
-        "mlb": "CIN",
+        "mlb": "MIN",
         "pos": "P",
         "mvp": false,
         "hr": false,
@@ -1140,7 +1140,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Magic Manatees"
     },
     {
@@ -1198,7 +1198,7 @@ const rawPlayers = [
     {
         "name": "Noah Syndergaard",
         "id": "0092",
-        "mlb": "LAA",
+        "mlb": "PHI",
         "pos": "P",
         "mvp": false,
         "hr": false,
@@ -1257,7 +1257,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mighty Megabytes"
     },
     {
@@ -1309,7 +1309,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": true,
+        "inj": false,
         "otter": "Mighty Megabytes"
     },
     {
@@ -1335,7 +1335,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Magic Manatees"
     },
     {
@@ -1361,7 +1361,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Mindful Freaks"
     },
     {
@@ -1387,7 +1387,7 @@ const rawPlayers = [
         "spd": false,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Frozen Acorns"
     },
     {
