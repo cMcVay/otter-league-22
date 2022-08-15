@@ -8,16 +8,16 @@ A Fantasy Baseball App for the casual baseball fan.
 
 ## Table of Contents
 
-* [Objective]()
-* [Approach]()
-* [Implementation]()
-    * [Game]()
-    * [Design]()
-    * [Style]()
-        * [Fonts & Colors]()
-        * [Wireframes]()
-* [Updates]()
-* [Creator & License]()
+* [Objective](https://github.com/cMcVay/otter-league-22#objective)
+* [Approach](https://github.com/cMcVay/otter-league-22#approach)
+* [Implementation](https://github.com/cMcVay/otter-league-22#implementation)
+    * [Game](https://github.com/cMcVay/otter-league-22#game)
+    * [Design](https://github.com/cMcVay/otter-league-22#design)
+    * [Style](https://github.com/cMcVay/otter-league-22#style)
+        * [Fonts & Colors](https://github.com/cMcVay/otter-league-22#fonts--colors)
+        * [Wireframes](https://github.com/cMcVay/otter-league-22#wireframes)
+* [Updates](https://github.com/cMcVay/otter-league-22#updates)
+* [Creator & Copyright](https://github.com/cMcVay/otter-league-22#creator--license)
 
 ## Objective
 
@@ -44,7 +44,9 @@ As a reminder, the problems outlined in the objective were:
 1. Daily Lineup Changes Necessary
 2. Complex Scoring
 3. Every Game Counts
+
 The solutions and the foundation of the Otter League are:
+
 1. **Auto Lineup Adjustments:** Lineups are optimally adjusted automatically. Therefore, users will not be at a disadvantage if they miss a lineup adjustment or don't pay attention for several days. Additionally, 9 day scoring periods allow for more time for engagement. If users are busy or disconnected for several days, they can check back in within the 9 days without feeling lost or disappointed.
 2. **Simplified Scoring:** Player performance is evaluated on a 5 point scale. While the formula is complex in itself, it is not necessary for users to understand it's intricacies. Users simply will know a player's success using the accessible 5 point scale. When watching a game, users don't need to track any statistics because the scoring scale simplifies in a way that more closely reflects a qualitative evaluation.
 3. **Only The Best Game Counts:** This is the biggest difference from traditional fantasy baseball leagues. Only the best player performance in a given period will be used for the team's score. Therefore, when watching a game, a user can continually root for positive actions without the fear that negative actions will diminish their score. Also, if a player has a great individual game, it matters more to a users team than if they have consistent average success. In this way, there is greater excitement for the casual fan because if they only can view a single game in the 9 day period there is an actual chance that they witness an impactful performance to their team's success.
@@ -95,7 +97,7 @@ The color scheme:
 #### Wireframes
 
 ## Updates
-## Creator & License
+## Creator & Copyright
 
 This app is created by Connor Ross McVay
 
