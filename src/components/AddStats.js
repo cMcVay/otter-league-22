@@ -139,6 +139,13 @@ rawStatsSP13.map(player => {
     rawPlayers[parseInt(player.id)].day.splice(12, 1, player.day);
 })
 
+rawStatsSP14.map(player => {
+    rawPlayers[parseInt(player.id)].log.splice(13, 1, player.game);
+    rawPlayers[parseInt(player.id)].op.splice(13, 1, player.OP);
+    rawPlayers[parseInt(player.id)].pts.splice(13, 1, player.points);
+    rawPlayers[parseInt(player.id)].day.splice(13, 1, player.day);
+})
+
 
 
 

@@ -386,7 +386,7 @@ const rawPlayers = [
         "spd": true,
         "ace": false,
         "lock": false,
-        "inj": false,
+        "inj": true,
         "otter": "Frozen Acorns"
     },
     {
@@ -769,7 +769,7 @@ const rawPlayers = [
     {
         "name": "Franmil Reyes",
         "id": "0059",
-        "mlb": "CLE",
+        "mlb": "CHC",
         "pos": "OF",
         "mvp": false,
         "hr": true,
@@ -1474,6 +1474,19 @@ const rawPlayers = [
         "mlb": "ATL",
         "pos": "IF",
         "mvp": true,
+        "hr": false,
+        "spd": false,
+        "ace": false,
+        "lock": false,
+        "inj": false,
+        "otter": "Frozen Acorns"
+    },
+    {
+        "name": "Steven Kwan",
+        "id": "0114",
+        "mlb": "CLE",
+        "pos": "OF",
+        "mvp": false,
         "hr": false,
         "spd": false,
         "ace": false,
