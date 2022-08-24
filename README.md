@@ -100,14 +100,14 @@ The color scheme:
 
 #### Wireframes
 
-![OtterHome](https://user-images.githubusercontent.com/86023551/186444352-0d4275af-d9d1-4da3-b77e-391302a5a2a7.png)
-/n **Home Page:** A view of the current score and a preview of the roster. All items are clickable and link to a new component.
-![OtterBoxScore](https://user-images.githubusercontent.com/86023551/186444405-e35239b6-79dd-4142-8c2f-f0929efd2f99.png)
-/n **Box Score:** When the scoreboard on the home page is clicked, this box score will show up. Clicking on the team name buttons will swap the players and stats that are displayed. Clicking on a player will open a window that shows the player profile.
-![OtterPlayerProfile](https://user-images.githubusercontent.com/86023551/186444434-c3a0f30e-38ea-43cd-a49d-3e5fbade74c8.png)
-/n **Player profile** window.
-![OtterStandings](https://user-images.githubusercontent.com/86023551/186444452-7c27d5e0-ddb3-43b6-bd8e-0b01ac542b1c.png)
-/n **Standings:** Clicking on the standings button on the home page will bring users to the standings page.
+![OtterHome](https://user-images.githubusercontent.com/86023551/186444352-0d4275af-d9d1-4da3-b77e-391302a5a2a7.png)  
+**Home Page:** A view of the current score and a preview of the roster. All items are clickable and link to a new component.  
+![OtterBoxScore](https://user-images.githubusercontent.com/86023551/186444405-e35239b6-79dd-4142-8c2f-f0929efd2f99.png)  
+**Box Score:** When the scoreboard on the home page is clicked, this box score will show up. Clicking on the team name buttons will swap the players and stats that are displayed. Clicking on a player will open a window that shows the player profile.  
+![OtterPlayerProfile](https://user-images.githubusercontent.com/86023551/186444434-c3a0f30e-38ea-43cd-a49d-3e5fbade74c8.png)  
+**Player profile** window.  
+![OtterStandings](https://user-images.githubusercontent.com/86023551/186444452-7c27d5e0-ddb3-43b6-bd8e-0b01ac542b1c.png)  
+**Standings:** Clicking on the standings button on the home page will bring users to the standings page.  
 
 
 ## Updates
