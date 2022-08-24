@@ -89,14 +89,39 @@ The overall style will be focused on simplicity and brevity. Names and scores wi
 
 #### Fonts & Colors
 The fonts used are:
-**Headers:**
-**Paragraph:**
+
+**Headers:** TBD
+
+**Paragraph:** TBD
 
 The color scheme:
+![Otter Projects](https://user-images.githubusercontent.com/86023551/186447961-0c78337b-cf2c-4bfa-a584-3a1e4a332601.png)
+
 
 #### Wireframes
 
+![OtterHome](https://user-images.githubusercontent.com/86023551/186444352-0d4275af-d9d1-4da3-b77e-391302a5a2a7.png)
+Home Page: A view of the current score and a preview of the roster. All items are clickable and link to a new component.
+![OtterBoxScore](https://user-images.githubusercontent.com/86023551/186444405-e35239b6-79dd-4142-8c2f-f0929efd2f99.png)
+Box Score: When the scoreboard on the home page is clicked, this box score will show up. Clicking on the team name buttons will swap the players and stats that are displayed. Clicking on a player will open a window that shows the player profile.
+![OtterPlayerProfile](https://user-images.githubusercontent.com/86023551/186444434-c3a0f30e-38ea-43cd-a49d-3e5fbade74c8.png)
+Player profile window.
+![OtterStandings](https://user-images.githubusercontent.com/86023551/186444452-7c27d5e0-ddb3-43b6-bd8e-0b01ac542b1c.png)
+Standings: Clicking on the standings button on the home page will bring users to the standings page.
+
+
 ## Updates
+
+The current display of the app is simplified and basic to allow users to interact with the app as changes are made. Similar to an agile methodology, feature changes happen in stages as the app is still active for users. 
+
+The next changes will be to the UI and styles to make the app match the wireframes. This will be achieved by creating components for each of the home page buttons and for each page. These components will use css in js to control the styles. I'm choosing this so that there is more control over each component's style.
+
+Another change will be to the way that the stats are read by the site. I want to make a store that everything draws from. This store will get created when the page is loaded. In the future, this store will be created from an API to the statistics in a database. But until I know more about back end, I will be using js to convert player statistics from an array into player objects.
+
+Authentication and authorization will allow users to log in to an account. This account will give them access to certain leagues (that they are a part of) and from their home page, they will see all features specific to their team. This will also allow users to interact with the app by adding players, editing lineups, and drafting. These interactions will affect a database which stores the league information so that other users in the same league will be able to see the changes.
+
+In the further future, I will learn swift in order to code this as a mobile app.
+
 ## Creator & Copyright
 
 This app is created by Connor Ross McVay
